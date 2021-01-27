@@ -275,7 +275,7 @@ p{
 .backspace{
     position: absolute;
     right: 15px;
-    font-size: 15px;
+    font-size: 4vw;
     font-weight: lighter;
     
     cursor: url(cursor.png), auto;
