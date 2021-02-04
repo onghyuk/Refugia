@@ -391,13 +391,13 @@ body{
 
 #mainlogo{
     position: absolute;
-    font-family:refujia;
-    font-size:50px;
+    
     text-align: center;
     
     z-index: 8;
     
-    
+    font-family: refugia;
+    font-size:50px;
     
     animation: main;
     animation-duration: 0.5s;
