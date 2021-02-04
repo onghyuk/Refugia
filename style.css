@@ -40,7 +40,6 @@ body{
     overflow-y: hidden;
     overflow-x: hidden;
     
-    font-family: sans-serif;
     font-weight: bold;
 }
 
@@ -319,8 +318,8 @@ body{
     position: relative;
     height: 60vh;
     animation: game;
-    animation-duration: 0.5s;
-    animation-delay: 0.5s;
+    animation-duration: 1s;
+    animation-delay: 1s;
     animation-fill-mode: both;
 }
 
@@ -392,11 +391,13 @@ body{
 
 #mainlogo{
     position: absolute;
-    
+    font-family:refujia;
     font-size:50px;
     text-align: center;
     
     z-index: 8;
+    
+    
     
     animation: main;
     animation-duration: 0.5s;
