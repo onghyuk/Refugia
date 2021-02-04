@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Refugia</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="style.css">
+    
+    
+</head>
+<body>
+   
+    <audio id="audio" src="spray3.mp3"></audio>
+    
+    <div class="wrapper" id="wrapper">
+       
+        
+        
+        <div class="header">
+            <div id="logo">
+                <p class="logo">Refugia</p>
+            </div>
+            
+            <div id="hamburger" onclick="myFunction(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+                 
+            </div>
+            <p style="position: absolute; right: 15vw;">KR/EN</p>
+            
+            <div id="menu"></div>
+        </div>
+        
+        
+        
+        
+        <div id="content" onclick="play();">
+        <div id="intro">
+                
+                <img src="1x/seed.png" style="width: 30%; z-index: 9;" onclick="play(); intro(); show();">
+               
+                <p style="font-size: 13px; margin-left: 30px;">Enter to Refugia.</p>
+            </div>    
+            
+            <div id="main">
+            <div id="back">
+                <img src="back.png" class="back">
+                <img src="back.png" class="backtwo">
+                <img src="back.png" class="backthree">
+            </div>
+            
+            <div id="icon">
+                 <img src="1x/icon5.png" class="about icon">
+                 <img src="1x/icon4.png" class="works icon" onclick="pageone()">
+                 <img src="1x/icon3.png" class="credit   icon">
+                 <img src="1x/icon2.png" class="radio   icon">
+                 <img src="1x/icon1.png" class="schedule   icon">
+            </div>
+            
+            <div id="touch">
+                 <img src="1x/img1.png" class="mushroom"  id="msone" onclick="play(); msone()">
+                 <img src="1x/img2.png" class="mushroom"  id="mstwo" onclick="play(); mstwo()">
+                 <img src="1x/img3.png" class="mushroom"  id="msthree" onclick="play(); msthree()">
+                 <img src="1x/img4.png" class="mushroom"  id="msfour" onclick="play(); msfour()">
+                 <img src="1x/seed2.png" class="mushroom"  id="seedone" onclick="play(); seedone()">
+                 <img src="1x/seed3.png" class="mushroom"  id="seedtwo" onclick="play(); seedtwo()">
+            </div>
+            </div>
+        </div>
+        
+        <div id="pageone">
+            <p class="backspace" onclick="this.parentElement.style.top='100vh'">V</p>
+            <div id="left">
+                <p>Ye eun Min</p>
+                <p>Seulgi Lee </p>
+                <p>Jia Chang </p>
+                <p>Yang ah Ham</p>
+                <p>Eliane Radigue</p>
+                <p>Shiva Feshareki</p>
+            </div>
+            
+            <div id="right">
+                 <p>Young joo Lee </p>
+                <p>Mirai Jeon</p>
+                <p>Eunji Cho  </p>
+                <p>Christina Kubisch</p>
+                <p>Tania Léon</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script>
+function myFunction(x) {
+  x.classList.toggle("change");
+}
+
+</script>
+
+<script>
+function play() {
+        var audio = document.getElementById("audio");
+        audio.play();
+      }
+    
+function intro() {
+  document.getElementById("intro").style.opacity = "0";
+}         
+    
+function show() {
+  document.getElementById("main").style.top = "1vh";
+}    
+    
+function msone() {
+  document.getElementById("msone").style.opacity = "0";
+  document.getElementById("msone").style.zIndex = "7";    
+}
+    
+function mstwo() {
+document.getElementById("mstwo").style.opacity = "0";
+}   
+    
+function msthree() {
+document.getElementById("msthree").style.opacity = "0";
+} 
+    
+function msfour() {
+document.getElementById("msfour").style.opacity = "0";
+} 
+    
+function seedone() {
+document.getElementById("seedone").style.opacity = "0";
+}
+    
+function seedtwo() {
+document.getElementById("seedtwo").style.opacity = "0";
+} 
+    
+function pageone() {
+document.getElementById("pageone").style.top = "8vh";
+} 
+    
+function backspace() {
+this.parentElement.style.top='100vh';
+}        
+    
+
+
+    
+    
+</script>
+
+
+
+</html>

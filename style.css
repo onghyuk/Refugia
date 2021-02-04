@@ -1,27 +1,52 @@
+@font-face{
+    font-family:"refugia";
+    src:url(refugiathree-Regular.woff); 
+    font-weight:bold;
+}
+
+@keyframes main{
+    0%{opacity: 1}
+    100%{opacity: 0}
+    
+}
+
+@keyframes info{
+    0%{opacity: 0;}
+    50%{opacity: 1;}
+    70%{opacity: 1;}
+    100%{opacity: 1;}
+    
+    
+}
+
+@keyframes disappear{
+    0%{opacity: 0;}
+    50%{opacity: 1;}
+    75%{opacity: 0;}
+    100%{opacity: 0;}
+    
+}
+
+@keyframes game{
+    0%{top: 100vh;}
+    100%{top:0vh;}
+    
+}
+
 body{
     margin: 0px;
     max-width: 100vw;
     max-height: 100vh;
     overflow-y: hidden;
+    overflow-x: hidden;
     
     font-family: sans-serif;
     font-weight: bold;
 }
 
-a{
-    cursor:url(cursor.png), auto;
-}
 
-p{
-     cursor: url(cursor.png), auto;
-}
 
-.wrapper{
-    position: absolute;
-    width: 100vw;
-    height: 100vh;
-    overflow-y: hidden;
-}
+
 
 #customPointer{
     position: absolute;
@@ -30,14 +55,7 @@ p{
     display: none;
 }
 
-.header{
-    position: absolute;
-    width: 100vw;
-    height: 7vh;
-    
-    padding-top: 2vh;
-    
-}
+
 
 #logo{
     position: absolute;
@@ -50,31 +68,9 @@ p{
     line-height: 0px;
 }
 
-#hamburger{
-    position: absolute;
-    right: 3vw;
-    padding-top: 1.5vh;
-}
 
-.bar1, .bar2, .bar3 {
-  width: 30px;
-  height: 3px;
-  background-color: #333;
-  margin: 4px 0;
-  transition: 0.4s;
-}
 
-.change .bar1 {
-  -webkit-transform: rotate(-45deg) translate(-3px, 6px);
-  transform: rotate(-45deg) translate(-3px, 6px);
-}
 
-.change .bar2 {opacity: 0;}
-
-.change .bar3 {
-  -webkit-transform: rotate(45deg) translate(-4px, -7px);
-  transform: rotate(45deg) translate(-4px, -7px);
-}
 
 
 #content{
@@ -84,7 +80,7 @@ p{
     
     top:7vh;
     
-    cursor:url(cursor.png), auto;
+    
     overflow-y: hidden;
 }
 
@@ -195,43 +191,43 @@ p{
 
 #msone{
    position: absolute;
-    top:15vh;
+    top:55vh;
     left:15vw;
     
 }
 
 #mstwo{
    position: absolute;
-    top:55vh;
+    top:65vh;
     left:4vw;
     width: 30%;
 }
 
 #msthree{
    position: absolute;
-    top:60vh;
-    left:50vw;
+    top:67vh;
+    left:70vw;
     
     
 }
 
 #msfour{
    position: absolute;
-    top:2vh;
+    top:60vh;
     left:50vw;
 }
 
 #seedone{
    position: absolute;
     width: 18%;
-    top:30vh;
-    left:55vw; 
+    top:45vh;
+    left:70vw; 
 }
 
 #seedtwo{
     position: absolute;
     width: 18vw;
-    top:50vh;
+    top:80vh;
     left:30vw;
 }
 
@@ -253,7 +249,7 @@ p{
     
     
     
-    cursor:url(cursor.png), auto;
+    
 }
 
 #left{
@@ -278,5 +274,303 @@ p{
     font-size: 4vw;
     font-weight: lighter;
     
-    cursor: url(cursor.png), auto;
+    
+}
+
+
+
+
+
+---
+
+.wrapper{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    overflow-y: hidden;
+    
+   cursor: url("cursor.png") ,auto;
+}
+
+#black{
+    position: absolute;
+    width: 100vw;
+    height: 60vh;
+    
+    color: white;
+    background-image: linear-gradient(black, white);
+   
+}
+
+#white{
+    position: absolute;
+    width: 100vw;
+    height: 40vh;
+    
+    z-index: 6;
+    
+    
+}
+
+#game{
+    cursor: url("cursor.png") ,auto;
+    z-index:9;
+    
+    position: relative;
+    height: 60vh;
+    animation: game;
+    animation-duration: 0.5s;
+    animation-delay: 0.5s;
+    animation-fill-mode: both;
+}
+
+#header{
+    position: absolute;
+    width: 100vw;
+    height: 3vh;
+    
+    padding-top: 2vh;
+    
+}
+
+#hamburger{
+    position: absolute;
+    right: 3vw;
+    top:5px;
+    z-index: 9;
+}
+
+.bar1, .bar2, .bar3 {
+  width: 30px;
+  height: 3px;
+  background-color: white;
+  margin: 4px 0;
+  transition: 0.4s;
+}
+
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-3px, 6px);
+  transform: rotate(-45deg) translate(-3px, 6px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-4px, -7px);
+  transform: rotate(45deg) translate(-4px, -7px);
+}
+
+#menu{
+    position: absolute;
+    right: 0px;
+    top: 5vh;
+    
+    width: 0vw;
+    height: 43vh;
+    
+    background-color: white;
+    color: black;
+    
+    overflow-x: hidden;
+    z-index: 9;
+    transition: 1s;
+}
+
+#menulist{
+    position: absolute;
+    
+    right: 3vw;
+    text-align: right;
+    overflow-x: hidden;
+   
+}
+
+
+#blackcontent{
+    padding: 5vw;
+}
+
+#mainlogo{
+    position: absolute;
+    
+    font-size:50px;
+    text-align: center;
+    
+    z-index: 8;
+    
+    animation: main;
+    animation-duration: 0.5s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+}
+
+#mainlist{
+    position: absolute;
+    z-index: 7;
+    top: 5vh;
+    max-width: 80vw;
+    font-size: 3vw;
+    line-height: 5vw;
+    transition: 1s;
+    z-index: 8;
+
+}
+
+#exhibition{
+    animation: disappear;
+    animation-delay: 2.5s;
+    animation-duration: 8s;
+    
+    opacity: 0;
+}
+
+#artist{
+    animation: info;
+    animation-delay: 3s;
+    animation-duration: 8s;
+    animation-fill-mode: both;
+    z-index: 8;
+}
+
+#other{
+    animation: disappear;
+    animation-delay: 3.5s;
+    animation-duration: 8s;
+    opacity: 0;
+}
+
+
+a{
+    cursor: pointer;
+}
+
+
+
+#jiachang{
+    position: absolute;
+    left: 0px;
+    top:100vh;
+    
+    width: 100vw;
+    height: 80vh;
+    
+  
+    
+    z-index: 10;
+    
+   
+    transition: 1s;
+    padding-right: 20vw;
+    
+}
+
+.iframe{
+    position: absolute;
+    left: -30vw;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.artistcontent{
+    position: absolute;
+    
+    margin-left: 4vw;
+    width: 70%;
+    height: 100%;
+}
+
+.artistwork{
+    height: 50%;
+    margin-top: 5vw;
+    background-color: gainsboro;
+    opacity: 0.7;
+}
+
+.artisttext{
+    height: 30%;
+    margin-top: 5vw;
+    background-color: gainsboro;
+    opacity: 0.7;
+}
+
+
+
+.button{
+    z-index: 9;
+    display: inline;
+    cursor: pointer;
+}
+
+
+@media only screen and (min-width:768px) {
+   .wrapper{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    overflow-y: hidden;
+       
+    display: grid;
+    grid-template-columns: 1fr 1fr;   
+}
+    
+    #black{
+    position: absolute;
+    width: 60vw;
+    height: 100vh;
+        
+    background-image: linear-gradient(to right, black , white);
+    color: white;
+        
+    
+}
+
+#white{
+    position: absolute;
+    width: 40vw;
+    height: 100vh;
+    overflow-y: hidden;
+}
+    
+#hamburger{
+    left: 2vw;
+    top:2vh;
+
+}
+
+.bar1, .bar2, .bar3 {
+  width: 30px;
+  height: 3px;
+  background-color:white;
+  margin: 4px 0;
+  transition: 0.4s;
+}
+    
+    #menu{
+    position: absolute;
+    left: 0px;
+    top:8vh;
+    
+    width: 0vw;
+    height: 43vh;
+    
+}
+    
+    #menulist{
+    position: absolute;
+    
+    left: 2.5vw;
+    text-align: left;
+}
+    
+    #mainlist{
+    position: absolute;
+    z-index: 7;
+    top: 10vh;
+    max-width: 40vw;
+    font-size: 1.5vw;
+    line-height: 2.5vw;
+    
+}
+    
 }
