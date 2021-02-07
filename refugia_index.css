@@ -6,3 +6,13 @@
     width: 100vw;
     height: 100vh;
 }
+
+@media only screen and (min-width:768px) {
+    #window{
+        position: absolute;
+        left: 38vw;
+        top:10vh;
+        width: 25vw;
+        height: 85vh;
+    }
+}
