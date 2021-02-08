@@ -596,6 +596,8 @@ p{
     margin-top: 15vw;
     margin-left: 3vw;
     z-index: 8;
+    
+    font-size: 6vw;
 }
 
 .workpage{
@@ -616,6 +618,8 @@ p{
     
     z-index: 7;
     cursor: pointer;
+    
+    font-size: 4vw;
 }
 
 .bio{
@@ -624,6 +628,8 @@ p{
     z-index: 7;
     cursor: pointer;
     margin-right: 3vw;
+    
+    font-size: 4vw;
 }
 
 .map{
