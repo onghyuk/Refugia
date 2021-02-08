@@ -15,6 +15,8 @@
 
 body{
     margin: 0px;
+    max-height: 100vh;
+    max-width: 100vw;
     overflow: hidden;
 }
 
@@ -24,7 +26,7 @@ body{
 
 @media only screen and (min-width:768px) {
     #window{
-        position: absolute;
+        position: fixed;
         left: 38vw;
         top:8vh;
         width: 23vw;
