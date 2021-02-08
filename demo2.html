@@ -65,7 +65,16 @@
             </div>   
         </div>   
         
-            
+        <div id="menu" style="width: 0vw;">
+                  <div id="menulist">
+                  <p>About</p>
+                  <p>Exhibition</p>
+                  <p>Works</p>
+                  <p>Credit</p>
+                  <p>Archive</p>  
+                  </div> 
+            </div>
+                
         <div id="info">
         
         
@@ -330,6 +339,20 @@
 function myFunction(x) {
   x.classList.toggle("change");
 }    
+    
+function menu() {
+
+  var x = document.getElementById("menu");
+  
+    
+  if (x.style.width === "0vw") {
+    x.style.width = "30vw";
+  } else {
+    x.style.width = "0vw";
+  }
+        
+ 
+}      
     
        
 </script>
