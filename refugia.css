@@ -312,9 +312,9 @@ z-index: 9;
 }
 
 #gamedown{
-  position: fixed;
+  position: absolute;
   top:7vh;    
-  right: 3.2vw;
+  right: 3.5vw;
   cursor: pointer;
     
   width: 0; 
@@ -324,7 +324,7 @@ z-index: 9;
   border-top: 18px solid black;
       
   z-index: 9;
-  display: none;  
+   
 }
 
 #works{
@@ -414,7 +414,7 @@ p{
     
     margin-top: 8vw;
     margin-bottom: 15px;
-    background-color: azure;
+    
     z-index: 8;
 }
 
@@ -423,14 +423,14 @@ p{
     position: relative;
     margin-left: 3vw;
     
-    z-index: 8;
+    z-index: 7;
     cursor: pointer;
 }
 
 .bio{
     display: inline-block;
     
-    z-index: 8;
+    z-index: 7;
     cursor: pointer;
 }
 
