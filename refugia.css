@@ -593,7 +593,7 @@ p{
 
 .artistinfo{
     
-    margin-top: 15vw;
+    margin-top: 5vw;
     
     z-index: 8;
     
@@ -606,7 +606,7 @@ p{
     
     font-size: 18vw;
     text-align: center;
-    line-height: 12vh;
+    line-height: 10vh;
 }
 
 .workpage{
