@@ -37,7 +37,7 @@ body{
     padding: 2vw;
     
    
-    cursor: url(cursor.png),auto;
+    
 }
 
 #header{
@@ -326,7 +326,7 @@ z-index: 9;
     z-index: 9;
     background-color: white;
     
-    
+    cursor: url(cursor.png),auto;
 }
 
 .gameobject{
