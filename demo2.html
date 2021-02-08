@@ -10,6 +10,8 @@
     
 </head>
 <body>
+<audio id="audio" src="spray3.mp3"></audio>
+
 <div id=wrapper>
    <div id=content style="overflow-y: hidden;">
         <div id=header>
@@ -93,9 +95,73 @@
         </div>    
         </div>
         
-        <div id=game style="height: 49vh;" class="artists">
+        <div id=game style="height: 49vh;" class="artists" onclick="play()">
+            
+             <img src="src/0240386-1.png" class="companyobject" id="ob12"
+             onclick="game2()">
+             
+             <img src="src/flowerandleaves.png" class="gameobject" id="ob1" onclick="hide(this)">
+             
+             <img src="src/spin_prod_1023579712.png" class="companyobject" id="ob15"
+             onclick="game5()">
+             
+             
+             
+             <img src="src/shutterstock_472148893.png" class="gameobject" id="ob2" onclick="hide(this)">
+             
+             
+             
+             <img src="src/shutterstock_1486330808.png" class="gameobject" id="ob3" onclick="hide(this)">
+             <img src="src/shutterstock_212952697.png" class="gameobject" id="ob4" onclick="hide(this)">
+             
+             
+             
+             
+             <img src="src/shutterstock_118447009.png" class="gameobject" id="ob5" onclick="hide(this)">
+             
+             <img src="src/lemon.png" class="gameobject" id="ob6" onclick="hide(this)">
+             
+             <img src="src/61o5kDaJEvL._AC_SL1500_.png" class="companyobject" id="ob11" onclick="game3()">
+             
+             <img src="src/shutterstock_1486330808.png" class="gameobject" id="ob7" onclick="hide(this)">
+             
+             <img src="src/293728xlg.png" class="companyobject" id="ob13" onclick="game4()">
+             
+              <img src="src/shutterstock_1545517877.png" class="gameobject" id="ob8" onclick="hide(this)">
+              
+              
+              
+              <img src="src/flowerandleaves3.png" class="gameobject" id="ob9" onclick="hide(this)">
+              <img src="src/flowerandleaves2.png" class="gameobject" id="ob10" onclick="hide(this)">
+              
+              <img src="src/mushroom1.png" class="musroomobject" id="ob16" onclick="mshide(this)">
+              
+              <img src="src/mushroom2.png" class="musroomobject" id="ob17" onclick="mshide(this)">
+              
+              <img src="src/mushroom5.png" class="musroomobject" id="ob18" onclick="mshide(this)">
+              
+              <img src="src/mushroom6.png" class="musroomobject" id="ob19" onclick="mshide(this)">
+              
+              <img src="src/mushroom7.png" class="musroomobject" id="ob20" onclick="mshide(this)">
+              
+             
+             
+             
+             
+             
+             
+             
+             
+             
+             <img src="src/US-Roundup-Extended-Control-Weed-And-Grass-Killer-Plus-Weed-Preventer-Ii-II-Main-5101910-Xxl.png.Duplicate2.png" class="companyobject" id="ob14" onclick="game()">
+             
+             
              <div id="gameup" onclick="sc(); info(); artistlist(); upbutton(); downbutton();"
              style="display: block;">
+             
+             
+                
+                
                  
              </div>
              
@@ -356,6 +422,11 @@ function menu() {
  
 }      
     
+function play() {
+        var audio = document.getElementById("audio");
+        audio.play();
+      }    
+    
        
 </script>
 <script>
@@ -427,6 +498,70 @@ function scrollFunction() {
     
   }
 }    
+</script>
+<script>
+
+function game() {
+document.getElementById("ob1").style.filter = "hue-rotate(100deg)";
+ document.getElementById("ob2").style.filter = "hue-rotate(80deg)";
+ document.getElementById("ob3").style.filter = "hue-rotate(50deg)"; 
+  document.getElementById("ob4").style.filter = "hue-rotate(40deg)"; 
+ document.getElementById("ob16").style.display = "block"; 
+    
+ document.getElementById("ob14").style.filter= "blur(5px)";     
+} 
+    
+function game2() {
+ document.getElementById("ob5").style.filter = "hue-rotate(80deg)";
+ document.getElementById("ob6").style.filter = "hue-rotate(50deg)"; 
+  document.getElementById("ob7").style.filter = "hue-rotate(40deg)"; 
+   document.getElementById("ob18").style.display = "block"; 
+    document.getElementById("ob12").style.filter= "blur(5px)";  
+}
+    
+function game3() {
+ document.getElementById("ob8").style.filter = "hue-rotate(80deg)";
+ document.getElementById("ob9").style.filter = "hue-rotate(50deg)"; 
+  document.getElementById("ob10").style.filter = "hue-rotate(40deg)";
+ document.getElementById("ob17").style.display = "block";  
+document.getElementById("ob11").style.filter= "blur(8px)";        
+}     
+
+function game4() {
+ document.getElementById("ob8").style.filter = "hue-rotate(80deg)";
+ document.getElementById("ob9").style.filter = "hue-rotate(50deg)"; 
+ document.getElementById("ob20").style.display = "block";
+ document.getElementById("ob19").style.display = "block";  
+document.getElementById("ob13").style.filter= "blur(8px)";        
+}      
+    
+function game5() {
+document.getElementById("ob20").style.filter = "hue-rotate(100deg)";
+ document.getElementById("ob19").style.filter = "hue-rotate(150deg)";
+ document.getElementById("ob18").style.filter = "hue-rotate(180deg)"; 
+  document.getElementById("ob17").style.filter = "hue-rotate(200deg)"; 
+ document.getElementById("ob16").style.filter = "hue-rotate(150deg)"; 
+    
+ document.getElementById("ob15").style.filter= "blur(5px)";     
+}     
+    
+function hide(x) {
+  x.classList.toggle("gamevanish");
+}
+    
+function mshide(x) {
+  x.classList.toggle("msvanish");
+}     
+    
+function blur(x) {
+  x.classList.toggle("vanish");
+}       
+    
+
+</script>
+
+<script>
+
 </script>
  
 
