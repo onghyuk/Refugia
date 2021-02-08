@@ -598,6 +598,14 @@ p{
     z-index: 8;
     
     font-size: 6vw;
+    text-align: center;
+}
+
+.artistname{
+    font-family: refugia;
+    
+    font-size: 20vw;
+    text-align: center;
 }
 
 .workpage{
