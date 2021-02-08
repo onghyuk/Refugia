@@ -270,16 +270,17 @@ z-index: 9;
 
 #infotext{
     position: absolute;
-    top:8%;
+    top:3%;
     width: 90%;
     font-family:pill-gothic-300mg, sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 1em;
+    
+    font-size: 4.5vw;
     
     
     
-    padding: 4%;
+    padding-left: 4%;
    
 }
 
@@ -366,7 +367,7 @@ p{
     #menulist{
     position: absolute;
     
-    right:3vw;
+    right:4vw;
     text-align: right;
 }
 
