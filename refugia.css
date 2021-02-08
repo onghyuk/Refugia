@@ -594,16 +594,15 @@ p{
 .artistinfo{
     
     margin-top: 5vw;
-    
     z-index: 8;
-    
     font-size: 6vw;
-    text-align: center;
+    margin-left: 3vw;
+    
 }
 
 .artistname{
     font-family: refugia;
-    
+    margin-top: 0vh;
     font-size: 18vw;
     text-align: center;
     line-height: 10vh;
