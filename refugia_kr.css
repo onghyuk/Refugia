@@ -85,12 +85,12 @@ a{
 
 #logo{
     position: absolute;
-    top:5vh;
-    left: -3vw;
+    top:4vh;
+    left: 0vw;
     
     z-index: 9;
     
-    width: 23%;
+    width: 25vw;
     animation: main;
     animation-delay: 4s;
     animation-duration: 0.1s;
@@ -530,7 +530,7 @@ z-index: 9;
 
 #gameup{
   position: fixed;
-  left: 45vw;
+  left: 43vw;
   cursor: pointer;
   top:95%;    
   width: 0; 
