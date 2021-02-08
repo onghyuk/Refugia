@@ -5,6 +5,7 @@
     <title>Refugia</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <link rel="stylesheet" href="refugia.css">
+    
     <link rel="stylesheet" href="https://use.typekit.net/bou6tsd.css">
     
     
@@ -15,6 +16,7 @@
 <div id=wrapper>
    <div id=content>
         <div id=header>
+           <img src="logo.png" id="minilogo">
             <div id="logo">
             <h1>REFUGIA</h1>       
             </div>
@@ -58,7 +60,7 @@
                 <div class="point" id="pt32"></div> 
             </div>
            
-         <img src="logo.png" style="width: 28%;" id="minilogo">
+         
         
         <div id="hamburger" onclick="myFunction(this); menu();">
             <div class="bar1"></div>
@@ -88,7 +90,7 @@
         <div id="infotext">
         <p>Refugia: Sound Projects by 11 Women Artists</p>  
         <p>Feb 17th – Mar 14th, 2021 <br> Alternative Space LOOP, Seoul Traffic Broadcasting </p>  
-        <p>Artists: <em>Jia Chang, Eunji Cho, Shiva Feshareki, Yang Ah Ham, Christina Kubisch, Seulgi Lee, Young Joo Lee, Tania León, Ye-eun Min, Jeon Mirai, Éliane Radigue</em> <br>
+        <p>Artists: <ins>Jia Chang, Eunji Cho, Shiva Feshareki, Yang Ah Ham, Christina Kubisch, Seulgi Lee, Young Joo Lee, Tania León, Ye-eun Min, Jeon Mirai, Éliane Radigue</ins> <br>
         Curator: Ji Yoon Yang</p> 
         
         <p>Sponsors: Arts Council Korea, Goethe-Institut Seoul, Embassy of France in Korea</p>        
@@ -156,8 +158,7 @@
              <img src="src/US-Roundup-Extended-Control-Weed-And-Grass-Killer-Plus-Weed-Preventer-Ii-II-Main-5101910-Xxl.png.Duplicate2.png" class="companyobject" id="ob14" onclick="game()">
              
              
-             <div id="gameup" onclick="sc(); info(); artistlist(); upbutton(); downbutton();"
-             style="display: block;">
+             <div id="gameup" onclick="upbutton(); gameup();">
              
              
                 
@@ -185,216 +186,34 @@
             </div>
             -->
             
-            
-            <div class="artists" id="jia">
-            
-            <div class="artistinfo">
-            <h1 class="artistname">JIA<br> CHANG</h1>
-            <h4>Switch</h4>
-            <p>single channel video ,15' 33"</p>
-            </div>
-            <div class="workpage">
-            <audio controls>
-            <source src="jangjia.mp3" type="audio/mp3">    
-            </audio>
-            </div>
-            <div class="statement" onclick="jiast()">
-            <h3 >statement</h3> 
-            <p>A poem and drawings by Chang are soldered onto the leather of a cow. The poem reflects on life and death in a moment when one seeks refuge from the pain of love and loss, longing to reunite with the lover who helped spark her inner self, against the backdrop of wind, ocean, and cliff. Under the dystopian circumstances today, the work feels more realistic than ever. The drawings in the work explore the artist’s natural instincts such as sense, taste, emotion, and sexual orientation that are untamed and uncontrolled by conventions. Each element is drawn with a smoldering iron, reeking the burning smell of skin of an animal that was once alive. At first, the leather attempts to protect the flesh that is no longer underneath, but ultimately gives in to the heat as it shrivels. The skin is then filled with fragile and delicate stories that cannot be easily shared with others, only revealed onto the surface through a closer look.</p>   
-            </div>
-            <div class="bio" onclick="jiabio()">
-            <h3>bio</h3> 
-            <p>Jia Chang (b. 1973)  <br>
-Jia Chang received a BFA and MFA degree at Korea National University of Arts’ Department of Fine Arts. She presented 9 solo exhibitions including Don’t Care If You Give Me the Evil Eye (DOOSAN Gallery, Seoul, 2020), Omerta (Alternative Space LOOP, Seoul, 2007), Where is the center of gravity? (Art Sonje Center-Seoul Art Cinema, Seoul, 2004) and participated in multiple group exhibitions such as Korean video art from 1970s to 1990s-Time Image Apparatus (MMCA, Gwacheon, 2019), Feasts on paper (Fengxian Museum, Shanghai, 2019), and Move on Asia: Oriental Metaphor (Alternative Space LOOP, Seoul, 2012). The artist was awarded the Korea Artist Prize (MMCA, Seoul, 2014) and Doosan Yonkang Artist Award (Doosan Foundation, Seoul, 2012). She also took a part in Doosan New York Residency (2014) and MMCA Changdong Residency (2006).
-</p>    
-            </div>
-            
-            </div>   
-            
-            <div class="artists" id="jia">
+        
+            <a name="CK"><div class="artists" id="CK">
            
             <h1 class="artistname">CHRISTINA KUBISCH</h1>
             <div class="artistinfo">
-            <h4>Christina Kubisch</h4>
-            <p>Switch <br> 2014, Object (drawing), 266x315cm, Buffalo hide</p>
+            <p>Christina Kubisch</p>
+            <p><ins class="subject">Switch</ins> <br> 2014, Object (drawing), 266x315cm, Buffalo hide</p>
             </div>
+            
             <div class="workpage">
-            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/2YrsPA7Q1Tw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <audio controls>
+            <source src="jangjia.mp3" type="audio/mp3">  
+            
+            </audio> 
             </div>
+            
             <div class="statement" onclick="jiast()">
-            <h3>statement</h3> 
-            <p>A poem and drawings by Chang are soldered onto the leather of a cow. The poem reflects on life and death in a moment when one seeks refuge from the pain of love and loss, longing to reunite with the lover who helped spark her inner self, against the backdrop of wind, ocean, and cliff. Under the dystopian circumstances today, the work feels more realistic than ever. The drawings in the work explore the artist’s natural instincts such as sense, taste, emotion, and sexual orientation that are untamed and uncontrolled by conventions. Each element is drawn with a smoldering iron, reeking the burning smell of skin of an animal that was once alive. At first, the leather attempts to protect the flesh that is no longer underneath, but ultimately gives in to the heat as it shrivels. The skin is then filled with fragile and delicate stories that cannot be easily shared with others, only revealed onto the surface through a closer look.</p>   
+            <p>Statement <br> <ins class="text">A poem and drawings by Chang are soldered onto the leather of a cow. The poem reflects on life and death in a moment when one seeks refuge from the pain of love and loss, longing to reunite with the lover who helped spark her inner self, against the backdrop of wind, ocean, and cliff. Under the dystopian circumstances today, the work feels more realistic than ever. The drawings in the work explore the artist’s natural instincts such as sense, taste, emotion, and sexual orientation that are untamed and uncontrolled by conventions. Each element is drawn with a smoldering iron, reeking the burning smell of skin of an animal that was once alive. At first, the leather attempts to protect the flesh that is no longer underneath, but ultimately gives in to the heat as it shrivels. The skin is then filled with fragile and delicate stories that cannot be easily shared with others, only revealed onto the surface through a closer look.</ins></p>   
             </div>
             <div class="bio" onclick="jiabio()">
-            <h3>bio</h3>
-            <p>Jia Chang (b. 1973)  <br>
-Jia Chang received a BFA and MFA degree at Korea National University of Arts’ Department of Fine Arts. She presented 9 solo exhibitions including Don’t Care If You Give Me the Evil Eye (DOOSAN Gallery, Seoul, 2020), Omerta (Alternative Space LOOP, Seoul, 2007), Where is the center of gravity? (Art Sonje Center-Seoul Art Cinema, Seoul, 2004) and participated in multiple group exhibitions such as Korean video art from 1970s to 1990s-Time Image Apparatus (MMCA, Gwacheon, 2019), Feasts on paper (Fengxian Museum, Shanghai, 2019), and Move on Asia: Oriental Metaphor (Alternative Space LOOP, Seoul, 2012). The artist was awarded the Korea Artist Prize (MMCA, Seoul, 2014) and Doosan Yonkang Artist Award (Doosan Foundation, Seoul, 2012). She also took a part in Doosan New York Residency (2014) and MMCA Changdong Residency (2006).
+            <p>Biography<br>Jia Chang (b. 1973) <br><ins class = "text">
+Jia Chang received a BFA and MFA degree at Korea National University of Arts’ Department of Fine Arts. She presented 9 solo exhibitions including Don’t Care If You Give Me the Evil Eye (DOOSAN Gallery, Seoul, 2020), Omerta (Alternative Space LOOP, Seoul, 2007), Where is the center of gravity? (Art Sonje Center-Seoul Art Cinema, Seoul, 2004) and participated in multiple group exhibitions such as Korean video art from 1970s to 1990s-Time Image Apparatus (MMCA, Gwacheon, 2019), Feasts on paper (Fengxian Museum, Shanghai, 2019), and Move on Asia: Oriental Metaphor (Alternative Space LOOP, Seoul, 2012). The artist was awarded the Korea Artist Prize (MMCA, Seoul, 2014) and Doosan Yonkang Artist Award (Doosan Foundation, Seoul, 2012). She also took a part in Doosan New York Residency (2014) and MMCA Changdong Residency (2006).</ins>
 </p>    
             </div>
             
-            </div>  
+            </div> 
+            </a> 
             
-            <div class="artists" id="jia">
-            <div class="artistinfo">
-            <h2>Jia Chang</h2>
-            <h4>수집된 기억들</h4>
-            <p>single channel video ,15' 33"</p>
-            </div>
-            <div class="workpage">
-            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/2YrsPA7Q1Tw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-            <div class="statement" onclick="jiast()">
-            <h3 >statement</h3>    
-            </div>
-            <div class="bio" onclick="jiabio()">
-            <h3>/ bio</h3>    
-            </div>
-            
-            </div>  
-            
-            <div class="artists" id="jia">
-            <div class="artistinfo">
-            <h2>Jia Chang</h2>
-            <h4>수집된 기억들</h4>
-            <p>single channel video ,15' 33"</p>
-            </div>
-            <div class="workpage">
-            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/2YrsPA7Q1Tw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-            <div class="statement" onclick="jiast()">
-            <h3 >statement</h3>    
-            </div>
-            <div class="bio" onclick="jiabio()">
-            <h3>/ bio</h3>    
-            </div>
-            
-            </div>  
-            
-            <div class="artists" id="jia">
-            <div class="artistinfo">
-            <h2>Jia Chang</h2>
-            <h4>수집된 기억들</h4>
-            <p>single channel video ,15' 33"</p>
-            </div>
-            <div class="workpage">
-            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/2YrsPA7Q1Tw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-            <div class="statement" onclick="jiast()">
-            <h3 >statement</h3>    
-            </div>
-            <div class="bio" onclick="jiabio()">
-            <h3>/ bio</h3>    
-            </div>
-            
-            </div>  
-            
-            <div class="artists" id="jia">
-            <div class="artistinfo">
-            <h2>Jia Chang</h2>
-            <h4>수집된 기억들</h4>
-            <p>single channel video ,15' 33"</p>
-            </div>
-            <div class="workpage">
-            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/2YrsPA7Q1Tw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-            <div class="statement" onclick="jiast()">
-            <h3 >statement</h3>    
-            </div>
-            <div class="bio" onclick="jiabio()">
-            <h3>/ bio</h3>    
-            </div>
-            
-            </div>  
-            
-            <div class="artists" id="jia">
-            <div class="artistinfo">
-            <h2>Jia Chang</h2>
-            <h4>수집된 기억들</h4>
-            <p>single channel video ,15' 33"</p>
-            </div>
-            <div class="workpage">
-            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/2YrsPA7Q1Tw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-            <div class="statement" onclick="jiast()">
-            <h3 >statement</h3>    
-            </div>
-            <div class="bio" onclick="jiabio()">
-            <h3>/ bio</h3>    
-            </div>
-            
-            </div>  
-            
-            <div class="artists" id="jia">
-            <div class="artistinfo">
-            <h2>Jia Chang</h2>
-            <h4>수집된 기억들</h4>
-            <p>single channel video ,15' 33"</p>
-            </div>
-            <div class="workpage">
-            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/2YrsPA7Q1Tw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-            <div class="statement" onclick="jiast()">
-            <h3 >statement</h3>    
-            </div>
-            <div class="bio" onclick="jiabio()">
-            <h3>/ bio</h3>    
-            </div>
-            
-            </div>  
-            
-            <div class="artists" id="jia">
-            <div class="artistinfo">
-            <h2>Jia Chang</h2>
-            <h4>수집된 기억들</h4>
-            <p>single channel video ,15' 33"</p>
-            </div>
-            <div class="workpage">
-            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/2YrsPA7Q1Tw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-            <div class="statement" onclick="jiast()">
-            <h3 >statement</h3>    
-            </div>
-            <div class="bio" onclick="jiabio()">
-            <h3>/ bio</h3>    
-            </div>
-            
-            </div>  
-            
-            <div class="artists" id="jia">
-            <div class="artistinfo">
-            <h2>Jia Chang</h2>
-            <h4>수집된 기억들</h4>
-            <p>single channel video ,15' 33"</p>
-            </div>
-            <div class="workpage">
-            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/2YrsPA7Q1Tw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-            <div class="statement" onclick="jiast()">
-            <h3 >statement</h3>    
-            </div>
-            <div class="bio" onclick="jiabio()">
-            <h3>/ bio</h3>    
-            </div>
-            
-            </div>  
-            
-            <div class="artists" id="jia">
-            <div class="artistinfo">
-            <h2>Jia Chang</h2>
-            <h4>수집된 기억들</h4>
-            <p>single channel video ,15' 33"</p>
-            </div>
-            <div class="workpage">
-            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/2YrsPA7Q1Tw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-            <div class="statement" onclick="jiast()">
-            <h3 >statement</h3>    
-            </div>
-            <div class="bio" onclick="jiabio()">
-            <h3>/ bio</h3>    
-            </div>
-            
-            </div>  
             
            
         </div>
@@ -442,22 +261,17 @@ function play() {
        
 </script>
 <script>
-function sc() {
-document.getElementById("content").style.overflowY = "visible";
-}     
     
-function info() {
-var x = document.getElementById("game");
-  
     
-  if (x.style.height === "49vh") {
-    x.style.height = "0vh";
-    x.style.border = "none";  
-  } else {
-    x.style.height = "49vh";
-    x.style.border = "2px solid black";    
-  }
-}
+function gameup() {
+document.getElementById("game").style.height = "98vh"; 
+document.getElementById("game").style.border = "2px solid black";     
+
+document.getElementById("game").style.position = "fixed"; 
+    
+document.getElementById("game").style.top = "1vh";    
+}  
+    
     
 function upbutton() {
   var x = document.getElementById("gameup");
@@ -472,40 +286,22 @@ function upbutton() {
    
 }
     
-function downbutton() {
-var x = document.getElementById("gamedown");
-  
-    
-  if (x.style.display === "block") {
-    x.style.display = "none";
-  } else {
-    x.style.display = "block";
-  }    
-}    
-function artistlist() {
-document.getElementById("artistlist").style.marginTop = "-3px";
-} 
+
      
      
 </script> 
    
-<script>
-  function jiast() {
-      alert("Jang Jia’s first exhibition was Volatile Boundaries at PKM GALLERY| Bartleby Bickle & Meursault - Seoul in Seoul in 2002, and the most recent exhibition was Dear, My wedding dress at Seoul Museum in Seoul in 2018. Jang Jia is mostly exhibited in South Korea, but also had exhibitions in Denmark. Jang Jia has no solo shows but 5 group shows over the last 16 years (for more information, see biography). The most important show was Seoul - Untill Now! Contemporary Korean Art at Charlottenburg udstillingsbygning in Copenhagen in 2005. Other important shows were at Artsonje Center in Seoul and Art Center Nabi in Seoul. Jang Jia has been exhibited with Hanna Kim and Tae-Eun Kim.");
-  } 
-    
-  function jiabio() {
-      alert("Jang Jia’s first exhibition was Volatile Boundaries at PKM GALLERY| Bartleby Bickle & Meursault - Seoul in Seoul in 2002, and the most recent exhibition was Dear, My wedding dress at Seoul Museum in Seoul in 2018. Jang Jia is mostly exhibited in South Korea, but also had exhibitions in Denmark. Jang Jia has no solo shows but 5 group shows over the last 16 years (for more information, see biography). The most important show was Seoul - Untill Now! Contemporary Korean Art at Charlottenburg udstillingsbygning in Copenhagen in 2005. Other important shows were at Artsonje Center in Seoul and Art Center Nabi in Seoul. Jang Jia has been exhibited with Hanna Kim and Tae-Eun Kim.");
-  }    
-    
-    
-</script>
+
+
 <script>
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
-  if (document.body.scrollTop > 4000 || document.documentElement.scrollTop > 4000) {
-    window.scrollTo(0, 0);
+  if (document.body.scrollTop > 160 || document.documentElement.scrollTop > 160) {
+    document.getElementById("game").style.height = "0vh";
+     document.getElementById("game").style.border = "none"; 
+      
+     document.getElementById("gameup").style.display = "block";  
   } else {
     
   }
@@ -572,9 +368,7 @@ function blur(x) {
 
 </script>
 
-<script>
 
-</script>
  
 
 

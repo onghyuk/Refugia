@@ -9,6 +9,12 @@
     50%{opacity: 0}
 }
 
+@keyframes logo{
+    0%{opacity: 0}
+    100%{opacity: 1}
+}
+
+
 @keyframes point{
     0%{opacity: 0}
     1%{opacity: 1}
@@ -22,9 +28,11 @@ body{
     padding: 0px;
    
     
-    font-family: pill-gothic-300mg, sans-serif;
-    font-style: normal;
-    font-weight: 300;
+    font-family: pill-gothic-600mg, sans-serif;
+
+font-weight: 800;
+
+font-style: normal;
     
     
 }
@@ -33,7 +41,7 @@ body{
 #content{
     position: absolute;
     width: 96vw;
-    height: 100vh;
+    height: auto;
     padding: 2vw;
     
    
@@ -55,16 +63,17 @@ body{
 
 
 #logo{
-    position: relative;
-    top:4vh;
+    position: absolute;
+    top:5vh;
+    left: 0vw;
     text-align: center;
-    font-size: 12vw;
+    font-size: 14vw;
     letter-spacing: -10px;
     font-family: refugia;
     z-index: 8;
     
     animation: main;
-    animation-delay: 3.5s;
+    animation-delay: 2s;
     animation-duration: 0.1s;
     animation-fill-mode: both;
     
@@ -74,7 +83,7 @@ body{
 #point{
     position: absolute;
     left:4vw;
-    top:5vh;
+    top:8vh;
    
     width:90%;
     height: 50vh;
@@ -84,22 +93,22 @@ body{
     
     animation: point;
     animation-delay: 1s;
-    animation-duration: 2.5s;
+    animation-duration: 1s;
     animation-fill-mode: both;
 }
 
 #point2{
     position: absolute;
     left:4vw;
-    top:5vh;
+    top:7vh;
     
     width:90%;
     height: 50vh;
     z-index: 8;
     
     animation: point;
-    animation-delay: 2s;
-    animation-duration: 1.5s;
+    animation-delay: 1.5s;
+    animation-duration: 0.5s;
     animation-fill-mode: both;
 }
 
@@ -248,10 +257,17 @@ body{
 
 
 #minilogo{
-position: absolute;
-margin-left: 3vw; 
-top:3vh;
+position: relative;
+top:-28px;
+left: 17vw;
+
+margin: 0 auto;    
 z-index: 9;
+width: 65%;
+    
+animation: logo;
+animation-delay: 2s;
+animation-fill-mode: both;    
 }
 
 #hamburger{
@@ -285,15 +301,15 @@ z-index: 9;
 
 
 #info{
-    position: relative;
+    position: absolute;
     top:0vh;
-    width: 99%;
-    height: 100%;
-    overflow-y: scroll;
+    width: 95%;
+    height: 120vh;
+    
     
     border: 2px solid black;
     background-color: white;
-    z-index: 8;
+    z-index: 6;
     
     
 }
@@ -303,9 +319,11 @@ z-index: 9;
     position: absolute;
     top:10%;
     width: auto;
-    font-family:pill-gothic-300mg, sans-serif;
-    font-style: normal;
-    font-weight: 700;
+    font-family: pill-gothic-600mg, sans-serif;
+
+font-weight: 800;
+
+font-style: normal;
     
     font-size: 6vw;
     
@@ -316,11 +334,11 @@ z-index: 9;
 }
 
 #game{
-    position: relative;
-    width: 99%;
-    height: 70%;
+    position: absolute;
+    width: 95%;
+    height: 70vh;
     
-    top:-2px;
+    top:50vh;
     
     border: 2px solid black;
     z-index: 9;
@@ -488,16 +506,17 @@ z-index: 9;
 }
 
 #gameup{
-  position: absolute;
+  position: fixed;
   left: 45vw;
   cursor: pointer;
-  top:90%;    
+  top:95%;    
   width: 0; 
   height: 0; 
-  border-left: 15px solid transparent;
-  border-right: 15px solid transparent;
-  border-bottom: 18px solid white;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-bottom: 30px solid black;
   z-index: 9;
+  display: none;    
 }
 
 #gamedown{
@@ -518,8 +537,10 @@ z-index: 9;
 
 #works{
     position: relative;
-    width: 100%;
-    height:auto; 
+    top:117vh;
+    width:100%;
+    height:100%; 
+    z-index: 4;
     
 }
 
@@ -537,9 +558,6 @@ z-index: 9;
     
 }
 
-p{
-    
-}
 
   #menu{
     position: fixed;
@@ -560,26 +578,11 @@ p{
     text-align: right;
 }
 
-.artist{
-    font-family: pill-gothic-300mg, sans-serif;
-    font-style: normal;
-    font-weight: 300;
-    position: relative;
-    
-    font-size: 3vw;
-    line-height: 0px;
-    
-    display: inline-block;
-    width: 20%;
-    
-    text-align: center;
-    background-color: white;
-     
-}
+
 
 .artists{
     position: relative;
-    top:-2px;
+    top:10px;
     width: 99%;
     height: auto;
     
@@ -589,6 +592,40 @@ p{
     background-color: white;
     overflow: hidden;
 
+}
+
+.subject{
+    text-decoration: none;
+    font-family: pill-gothic-600mg, sans-serif;
+
+font-weight: 800;
+
+font-style: oblique;
+    
+}
+
+.text{
+    text-decoration: none;
+    font-family: pill-gothic-600mg, sans-serif;
+
+font-weight: 600;
+
+font-style: normal;
+    font-size: 6vw;
+}
+
+mark{
+    
+    font-family: pill-gothic-600mg, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    
+}
+
+
+
+audio{
+    margin-left: 3vw;
 }
 
 .artistinfo{
@@ -602,7 +639,7 @@ p{
 
 .artistname{
     font-family: refugia;
-    margin-top: 0vh;
+    margin-top: 2vh;
     font-size: 18vw;
     text-align: center;
     line-height: 9vh;
@@ -610,7 +647,7 @@ p{
 
 .workpage{
     width: 100%;
-    height: 35%;
+    height: 50%;
     
     margin-top: 8vw;
     margin-bottom: 15px;
@@ -625,7 +662,7 @@ p{
     margin-right: 3vw;
     
     z-index: 7;
-    cursor: pointer;
+    
     
     font-size: 6vw;
 }
@@ -634,7 +671,7 @@ p{
     margin-left: 3vw;
     
     z-index: 7;
-    cursor: pointer;
+    
     margin-right: 3vw;
     
     font-size: 6vw;
