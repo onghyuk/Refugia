@@ -1,8 +1,10 @@
 @font-face{
     font-family:"refugia";
-    src:url(refugiathree-Regular.woff); 
-    font-weight:bold;
+    src:url(SMAgoK3.woff2); 
+    
 }
+
+
 
 @keyframes main{
     0%{opacity: 1}
@@ -29,14 +31,18 @@ body{
     margin: 0px;
     padding: 0px;
    
-    
-    font-family: pill-gothic-600mg, sans-serif;
+    font-family: noto-sans-cjk-kr, sans-serif;
 
-font-weight: 800;
+font-weight: 900;
 
 font-style: normal;
     
     
+    
+}
+
+ins{
+    text-decoration: none;
 }
 
 
@@ -47,6 +53,11 @@ font-style: normal;
     padding: 2vw;
     z-index: 2;
    
+    
+}
+
+.imgname{
+    width: 100%;
     
 }
 
@@ -73,13 +84,14 @@ a{
 #logo{
     position: absolute;
     top:5vh;
-    left: 0vw;
+    left: -1vw;
     text-align: center;
     font-size: 14vw;
     letter-spacing: -10px;
     font-family: refugia;
     z-index: 9;
     
+    width: 30%;
     animation: main;
     animation-delay: 2.5s;
     animation-duration: 0.1s;
@@ -335,13 +347,9 @@ z-index: 9;
     position: absolute;
     top:10%;
     width: auto;
-    font-family: pill-gothic-600mg, sans-serif;
-
-font-weight: 800;
-
-font-style: normal;
     
-    font-size: 7.3vw;
+    font-family: refugia;
+    font-size: 8vw;
     
     
     z-index: 9;
@@ -612,40 +620,38 @@ font-style: normal;
 }
 
 .subject{
-    text-decoration: underline;
-    font-family: pill-gothic-600mg, sans-serif;
-
-font-weight: 800;
-
-font-style: oblique;
+    
+    font-style: italic;
     
 }
 
 i{
     text-decoration: none;
-    font-family: pill-gothic-600mg, sans-serif;
-
-font-weight: 600;
+    
 
 font-style: italic;
     font-size: 6vw;
 }
 
 .text{
-    text-decoration: none;
-    font-family: pill-gothic-600mg, sans-serif;
+    
+    
+font-family: noto-sans-cjk-kr, sans-serif;
 
-font-weight: 600;
+font-weight: 700;
 
 font-style: normal;
-    font-size: 6vw;
+    
+
+
+
+font-size: 6vw;
+line-height: 9vw;
 }
 
 mark{
     
-    font-family: pill-gothic-600mg, sans-serif;
-    font-weight: 700;
-    font-style: normal;
+    
     
 }
 
