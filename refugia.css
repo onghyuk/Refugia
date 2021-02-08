@@ -20,7 +20,7 @@
 body{
     margin: 0px;
     padding: 0px;
-   overflow-x: hidden;
+   
     
     font-family: pill-gothic-300mg, sans-serif;
     font-style: normal;
@@ -288,7 +288,7 @@ z-index: 9;
     position: relative;
     top:0vh;
     width: 99%;
-    height: 48vh;
+    height: 100%;
     overflow-y: scroll;
     
     border: 2px solid black;
@@ -301,13 +301,13 @@ z-index: 9;
 
 #infotext{
     position: absolute;
-    top:3%;
-    width: 90%;
+    top:10%;
+    width: auto;
     font-family:pill-gothic-300mg, sans-serif;
     font-style: normal;
     font-weight: 700;
     
-    font-size: 4.5vw;
+    font-size: 6vw;
     
     
     
@@ -318,7 +318,7 @@ z-index: 9;
 #game{
     position: relative;
     width: 99%;
-    height: 49vh;
+    height: 70%;
     
     top:-2px;
     
