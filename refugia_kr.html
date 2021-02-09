@@ -16,21 +16,25 @@
     h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
   })(document);
 </script>
+   
+
     
+    <script src="/path/to/infinite-scroll.pkgd.min.js"></script>
     
+   
     
 </head>
 <body>
 <audio id="audio" src="spray3.mp3"></audio>
 
 <div id=wrapper>
-   <div id=content>
+   <div id=content class="container" data-infinite-scroll='{ "path": ".pagination__next", "append": ".post", "history": false }'>
         <div id=header>
            <img src="logo_kr.png" id="minilogo">
             <div id="logo">
             <img src="main_logo_kr.png" style="width: 100%;">      
             </div>
-            <a href="refugia_en.html"><div id="link"><p>EN</p></div></a>
+            
             
             <div id="point">
                 <div class="point" id="pt1"></div>
@@ -85,6 +89,7 @@
         <div id="menu" style="width: 0vw;">
                   <div id="menulist">
                   
+                  <a href="refugia_en.html"><div id="link"><p>EN</p></div></a>
                   <a href="#about"><p>정보</p></a>
                   <a href="#about"><p>작업</p></a>
                   <p>크레딧</p>
@@ -768,6 +773,11 @@ POP ! POP ! POP ! 여기 저기 코르크가 터지며 은밀한 축제의 시�
     
     
 </body>
+<script>
+window.scrollTo(50,document.body.scrollHeight);
+  
+</script>
+
 
 <script>
 function myFunction(x) {
@@ -828,20 +838,7 @@ function upbutton() {
    
 
 
-<script>
-window.onscroll = function() {scrollFunction()};
 
-function scrollFunction() {
-  if (document.body.scrollTop > 160 || document.documentElement.scrollTop > 160) {
-    document.getElementById("game").style.height = "0vh";
-     document.getElementById("game").style.border = "none"; 
-      
-     document.getElementById("gameup").style.display = "block";  
-  } else if (document.body.scrollTop > 33800 || document.documentElement.scrollTop > 33800)  {
-    window.scrollTo(0, 0);
-  }
-}    
-</script>
 <script>
 
 function game() {
@@ -904,8 +901,20 @@ function blur(x) {
 </script>
 
 <script>
-    var scrollPosition = window.scrollY || document.documentElement.scrollTop;
-console.log(scrollPosition);</script>
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 160 || document.documentElement.scrollTop > 160) {
+    document.getElementById("game").style.height = "0vh";
+     document.getElementById("game").style.border = "none"; 
+      
+     document.getElementById("gameup").style.display = "block";  
+  } 
+   else {
+      
+  }
+}      
+</script>
 
 
  
