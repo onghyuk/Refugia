@@ -92,7 +92,7 @@ a{
     
     z-index: 9;
     
-    width: 15%;
+    width: 100%;
     animation: main;
     animation-delay: 4s;
     animation-duration: 0.1s;
