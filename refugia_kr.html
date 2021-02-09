@@ -823,8 +823,8 @@ function scrollFunction() {
      document.getElementById("game").style.border = "none"; 
       
      document.getElementById("gameup").style.display = "block";  
-  } else {
-    
+  } else if (document.body.scrollTop > 33800 || document.documentElement.scrollTop > 33800)  {
+    window.scrollTo(0, 0);
   }
 }    
 </script>
@@ -888,6 +888,10 @@ function blur(x) {
     
 
 </script>
+
+<script>
+    var scrollPosition = window.scrollY || document.documentElement.scrollTop;
+console.log(scrollPosition);</script>
 
 
  
