@@ -92,7 +92,7 @@ a{
     
     z-index: 9;
     
-    width: 50%;
+    width: 15%;
     animation: main;
     animation-delay: 4s;
     animation-duration: 0.1s;
@@ -301,8 +301,8 @@ animation-fill-mode: both;
 
 #hamburger{
 position: fixed;
-right: 3.5vw;
-top:2.2vh;
+right: 4vw;
+top:2.5vh;
 z-index: 9;
 }
 
