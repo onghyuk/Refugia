@@ -83,14 +83,16 @@ a{
 
 
 
+
+
 #logo{
     position: absolute;
     top:7vh;
-    left: -3vw;
+    left: 0vw;
     
     z-index: 9;
     
-    width: 100%;
+    width: 50%;
     animation: main;
     animation-delay: 4s;
     animation-duration: 0.1s;
@@ -616,6 +618,10 @@ z-index: 9;
     background-color: white;
     overflow: hidden;
 
+}
+
+#JIA{
+    margin-top: 1.6vw;
 }
 
 .subject{
