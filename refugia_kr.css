@@ -66,7 +66,7 @@ body{
     margin: 0px;
     padding: 0px;
    
-    font-family: Noto Sans KR;
+    font-family: 'Noto Sans KR';
     font-weight: 900;
 
     font-style: normal;
@@ -839,7 +839,7 @@ font-style: italic;
 .text{
     
     
-font-family: Noto Sans KR;
+font-family: 'Noto Sans KR';
 font-weight: 700;    
 font-style: bold;
     
