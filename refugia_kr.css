@@ -355,7 +355,7 @@ z-index: 9;
     position: absolute;
     top:0vh;
     width: 95%;
-    height: 260vw;
+    height: 270vw;
     
     
     border: 2px solid black;
@@ -701,7 +701,7 @@ z-index: 9;
 
 #works{
     position: relative;
-    top:258vw;
+    top:268vw;
     width:100%;
     height:100%; 
     z-index: 4;
