@@ -371,7 +371,10 @@ z-index: 9;
     top:10%;
     width: auto;
     
-    font-family: refugia;
+    font-family: Noto Sans KR, sans-serif;
+    font-weight: 900;
+
+    font-style: normal;
     font-size: 8vw;
     
     
