@@ -698,7 +698,7 @@ z-index: 9;
     width: 0vw;
     height:100vh;
       
-    z-index: 9;  
+    z-index: 7;  
     overflow-x: hidden;
     overflow-y: scroll;
 }
@@ -709,6 +709,7 @@ z-index: 9;
     right:4vw;
     text-align: right;
     line-height: 5vw;
+    z-index: 7; 
 }
 
 .creditch{
