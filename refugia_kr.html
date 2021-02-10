@@ -92,8 +92,31 @@
                   <a href="refugia_en.html"><div id="link"><p>EN</p></div></a>
                   <a href="#about"><p>정보</p></a>
                   <a href="#about"><p>작업</p></a>
+                  <div class="creditch" onclick="credit(this)">
                   <p>크레딧</p>
+                  <p>큐레이토리얼 팀<br>
+큐레이터: 양지윤<br>
+프로젝트 매니저: 이선미<br>
+코디네이터: 권주리<br>
+홍보: 김다영<br>
+어시스턴트: 윤혜린<br>
+미디어 디자인: 신나라<br>
+기술: 서울오픈미디어<br><br>
+그래픽디자인 팀<br>
+아트디렉터: 김도형<br>
+디자인: 김락현, 양혜림, 이유민<br>
+웹디자인: 이손, 박예림</p>
+                      
+                  </div>
+                  <div class="archivech" onclick="archive(this)">
                   <p>아카이브</p>  
+                  
+                  <a href="http://sfxseoul.org/archive/" target=_blank>
+                  <p>2007-2010</p></a>
+                <a href="http://sfxseoul.org/2017/" target=_blank><p>2017</p></a>
+                <a href="http://sfxseoul.org/2018/" target=_blank><p>2018</p></a>
+                <a href="http://sfxseoul.org/" target=_blank><p>2019</p> </a>       
+                  </div>
                   </div> 
             </div>
                 
@@ -774,7 +797,7 @@ POP ! POP ! POP ! 여기 저기 코르크가 터지며 은밀한 축제의 시�
     
 </body>
 <script>
-window.scrollTo(50,document.body.scrollHeight);
+
   
 </script>
 
@@ -784,13 +807,21 @@ function myFunction(x) {
   x.classList.toggle("change");
 }    
     
+function archive(x) {
+  x.classList.toggle("archive");
+}  
+    
+function credit(x) {
+  x.classList.toggle("credit");
+}     
+    
 function menu() {
 
   var x = document.getElementById("menu");
   
     
   if (x.style.width === "0vw") {
-    x.style.width = "50vw";
+    x.style.width = "110vw";
   } else {
     x.style.width = "0vw";
   }
@@ -915,7 +946,9 @@ function scrollFunction() {
   }
 }      
 </script>
-
+<script>
+  
+</script>
 
  
 

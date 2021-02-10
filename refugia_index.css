@@ -1,4 +1,11 @@
-
+@keyframes back{
+    0%{z-index: 6}
+    15%{z-index: 5}
+    30%{z-index: 4}
+    45%{z-index: 3}
+    70%{z-index: 2}
+    100%{z-index: 1}
+}
 
 #window{
     position: absolute;
@@ -20,8 +27,65 @@ body{
     overflow: hidden;
 }
 
-#background{
+.background{
     display: none;
+    
+}
+
+#back1{
+    animation: back;
+    animation-duration: 1080s;
+    animation-delay: 0;
+    
+    animation-iteration-count: infinite;
+}
+
+#back2{
+    animation: back;
+    animation-duration: 1080s;
+    animation-delay: 180s;
+    
+    animation-iteration-count: infinite;
+}
+
+#back3{
+    animation: back;
+    animation-duration: 1080s;
+    animation-delay: 360s;
+    
+    animation-iteration-count: infinite;
+}
+
+#back3{
+    animation: back;
+    animation-duration: 1080s;
+    animation-delay: 540s;
+    
+    animation-iteration-count: infinite;
+}
+
+#back4{
+    animation: back;
+    animation-duration: 1080s;
+    animation-delay: 720s;
+    
+    animation-iteration-count: infinite;
+}
+
+#back5{
+    animation: back;
+    animation-duration: 1080s;
+    animation-delay: 1080s;
+    
+    animation-iteration-count: infinite;
+}
+
+#back6{
+    animation: back;
+    animation-duration: 1080s;
+    animation-delay: 1260s;
+    
+    animation-iteration-count: infinite;
 }
 
 @media only screen and (min-width:768px) {
@@ -34,13 +98,14 @@ body{
         z-index: 9;
     }
     
-    #background{
-    display: block;
+    .background{
+        display: block;
         position: absolute;
         left: -15vw;
         width: 100vw;
         height: 100vh;
-        z-index: 5;
+        z-index: 1;
+        
         
         
 }

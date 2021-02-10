@@ -588,10 +588,11 @@ z-index: 9;
     
      
     width: 0vw;
-    height:50vh;
+    height:100vh;
       
     z-index: 9;  
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
     
     #menulist{
@@ -602,6 +603,43 @@ z-index: 9;
     line-height: 5vw;
 }
 
+.creditch{
+    position: relative;
+    top:0px;
+    width: 30vw;
+    height: 8vh;
+    
+    font-size: 7vw;
+    
+
+    overflow-y: hidden;
+    cursor: pointer;}
+
+.credit{
+    height: auto;
+    line-height: 5vh;
+    width: 100vw;
+    overflow-x: visible;
+}
+
+.archivech{
+    position: relative;
+    right: 0px;
+    top:0px;
+    width: 30vw;
+    height: 8vh;
+    
+    font-size: 7vw;
+    line-height: 4vw;
+    margin-bottom: 20vh;
+    
+    overflow-y: hidden;
+    cursor: pointer;
+}
+
+.archive{
+    height: auto;
+}
 
 
 .artists{
