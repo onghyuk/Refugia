@@ -42,6 +42,12 @@ body{
     
     
     
+    
+}
+
+.br{
+    display: block; 
+    margin-bottom: 3vw;
 }
 
 ins{
@@ -853,7 +859,7 @@ audio{
 
 .workpageaudio{
     width: 100%;
-    height: 5vh;
+    height: 8vh;
     
     
     
