@@ -368,6 +368,12 @@ z-index: 9;
     background-color: white;
     
     cursor: url(cursor.png),auto;
+    
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    background-color: white;
+    overflow: hidden;
 }
 
 .gameobject{
@@ -668,13 +674,18 @@ z-index: 9;
 
 #works{
     position: relative;
-    top:196.9vw;
+    top:198vw;
     width:100%;
     height:100%; 
     z-index: 4;
     
+    
+    
 }
 
+#ER {
+    padding-top: 3vw;
+}
 #artistlist{
     position: sticky;
     top:1px;;
