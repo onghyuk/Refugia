@@ -63,6 +63,10 @@ body{
     
 }
 
+p{
+    line-height: 6vw;
+}
+
 .br{
     display: block; 
     margin-bottom: 2vw;
@@ -726,6 +730,7 @@ z-index: 9;
     z-index: 8;
     
 }
+
 
 
   #menu{
