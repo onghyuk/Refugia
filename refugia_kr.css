@@ -32,11 +32,11 @@ body{
     margin: 0px;
     padding: 0px;
    
-    font-family: noto-sans-cjk-kr, sans-serif;
+    font-family: noto-sans, sans-serif;
 
-    font-weight: 900;
+font-weight: 900;
 
-    font-style: normal;
+font-style: normal;
     
     overflow-x: hidden;
     
@@ -64,6 +64,7 @@ ins{
 
 .imgname{
     width: 100%;
+    margin-bottom: -5.5vh;
     
 }
 
@@ -757,6 +758,7 @@ z-index: 9;
     width: 99%;
     height: 110%;
     
+    padding-top: 2vw;
     border-left: 2px solid black;
     border-right: 2px solid black;
     border-bottom: 2px solid black;
@@ -786,9 +788,9 @@ font-style: italic;
 .text{
     
     
-font-family: noto-sans-cjk-kr, sans-serif;
+font-family: noto-sans, sans-serif;
 
-font-weight: 700;
+font-weight: 900;
 
 font-style: normal;
     
