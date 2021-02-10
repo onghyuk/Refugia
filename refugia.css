@@ -8,6 +8,10 @@
     0%{opacity: 1}
     10%{opacity: 0;}
     100%{opacity: 0}
+}@keyframes main{
+    0%{opacity: 1}
+    10%{opacity: 0;}
+    100%{opacity: 0}
 }
 
 @keyframes logo{
@@ -29,24 +33,38 @@ body{
     margin: 0px;
     padding: 0px;
    
-    
-    font-family: pill-gothic-600mg, sans-serif;
+    font-family: noto-sans-cjk-kr, sans-serif;
 
-font-weight: 800;
+    font-weight: 900;
 
-font-style: normal;
+    font-style: normal;
+    
+    overflow-x: hidden;
     
     
+    
+}
+
+ins{
+    text-decoration: none;
 }
 
 
 #content{
     position: absolute;
     width: 96vw;
-    height: auto;
-    padding: 2vw;
+    height: autoxs;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
     z-index: 2;
    
+    
+}
+
+.imgname{
+    width: 100%;
     
 }
 
@@ -70,6 +88,8 @@ a{
 
 
 
+
+
 #logo{
     position: absolute;
     top:5vh;
@@ -88,13 +108,6 @@ a{
     opacity: 0;
 }
 
-#link{
-    position: absolute;
-    right: 11vw;
-    top:-0.2vh;
-    
-    font-size: 4.5vw;
-}
 
 #point{
     position: absolute;
@@ -108,7 +121,7 @@ a{
     z-index: 9;
     
     animation: point;
-    animation-delay: 1s;
+    animation-delay: 3s;
     animation-duration: 3s;
     animation-fill-mode: both;
 }
@@ -123,7 +136,7 @@ a{
     z-index: 9;
     
     animation: point;
-    animation-delay: 2s;
+    animation-delay: 5s;
     animation-duration: 2s;
     animation-fill-mode: both;
 }
@@ -282,14 +295,14 @@ z-index: 9;
 width: 65%;
     
 animation: logo;
-animation-delay: 2.5s;
+animation-delay: 3.5s;
 animation-fill-mode: both;    
 }
 
 #hamburger{
 position: fixed;
 right: 4vw;
-top:2.5vh;
+top:3vh;
 z-index: 9;
 }
 
@@ -320,7 +333,7 @@ z-index: 9;
     position: absolute;
     top:0vh;
     width: 95%;
-    height: 120vh;
+    height: 200vw;
     
     
     border: 2px solid black;
@@ -367,6 +380,12 @@ font-style: normal;
     width: 35%;
     
 }
+
+.vanish{
+    
+    filter:blur(5px);
+}
+
 .gamevanish{
     width: 35%;
     display: none;
@@ -386,10 +405,7 @@ font-style: normal;
     
 }
 
-.vanish{
-    
-    filter:blur(5px);
-}
+
 
 #ob1{
     position: absolute;
@@ -429,8 +445,8 @@ font-style: normal;
 
 #ob7{
     position: absolute;
-    left: 60vw;
-    top:5vh;
+    left: 63vw;
+    top:12vh;
 }
 
 #ob8{
@@ -453,8 +469,8 @@ font-style: normal;
 
 #ob11{
     position: absolute;
-    left: 25vw;
-    top:6vh;
+    left: 65vw;
+    top:53vh;
 }
 
 #ob12{
@@ -488,13 +504,13 @@ font-style: normal;
 #ob16{
     position: absolute;
     left: 10vw;
-    top:5vh;
+    top:55vh;
 }
 
 #ob17{
     position: absolute;
     left: 55vw;
-    top:8vh;
+    top:70vh;
 }
 
 #ob18{
@@ -507,18 +523,123 @@ font-style: normal;
 
 #ob19{
     position: absolute;
-    left: 15vw;
-    top:22vh;
+    left: 17vw;
+    top:5vh;
     
     transform: rotate(180deg);
 }
 
 #ob20{
     position: absolute;
-    left: 55vw;
-    top:70vh;
+    left: 65vw;
+    top:32vh;
     
     transform: rotate(180deg);
+}
+
+#ob21{
+    position: absolute;
+    left: 5vw;
+    top:75vh;
+    
+    transform: rotate(180deg);
+}
+
+#ob22{
+    position: absolute;
+    left: 32vw;
+    top:50vh;
+    
+}
+
+#ob23{
+    position: absolute;
+    left: 6vw;
+    top:60vh;
+    
+}
+
+#ob24{
+    position: absolute;
+    left: 3vw;
+    top:45vh;
+    
+}
+
+#ob25{
+    position: absolute;
+    left:57vw;
+    top:62vh;
+    
+}
+
+#ob26{
+    position: absolute;
+    left:53vw;
+    top:75vh;
+   
+}
+
+#ob27{
+    position: absolute;
+    left:60vw;
+    top:45vh;
+   
+}
+
+#ob28{
+    position: absolute;
+    left:28vw;
+    top:65vh;
+    
+   
+}
+
+#ob29{
+    position: absolute;
+    left:18vw;
+    top:50vh;
+    
+    width: 35%;
+   
+}
+
+#ob30{
+    position: absolute;
+    left:45vw;
+    top:71vh;
+
+}
+
+#ob31{
+    position: absolute;
+    left:45vw;
+    top:70vh;
+}
+
+#ob32{
+    position: absolute;
+    left:30vw;
+    top:68vh;
+}
+
+#ob33{
+    position: absolute;
+    left:22vw;
+    top:68vh;
+}
+
+#ob34{
+    position: absolute;
+    left:6vw;
+    top:63vh;
+    width: 40%;
+}
+
+
+.bear{
+    width: 60%;
+    display: none;
 }
 
 #gameup{
@@ -553,7 +674,7 @@ font-style: normal;
 
 #works{
     position: relative;
-    top:117vh;
+    top:196.9vw;
     width:100%;
     height:100%; 
     z-index: 4;
@@ -582,10 +703,11 @@ font-style: normal;
     
      
     width: 0vw;
-    height:50vh;
+    height:100vh;
       
     z-index: 9;  
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
     
     #menulist{
@@ -593,8 +715,46 @@ font-style: normal;
     font-size: 7vw;     
     right:4vw;
     text-align: right;
+    line-height: 5vw;
 }
 
+.creditch{
+    position: relative;
+    top:0px;
+    width: 30vw;
+    height: 8vh;
+    
+    font-size: 7vw;
+    
+
+    overflow-y: hidden;
+    cursor: pointer;}
+
+.credit{
+    height: auto;
+    line-height: 5vh;
+    width: 100vw;
+    overflow-x: visible;
+}
+
+.archivech{
+    position: relative;
+    right: 0px;
+    top:0px;
+    width: 30vw;
+    height: 8vh;
+    
+    font-size: 7vw;
+    line-height: 4vw;
+    margin-bottom: 20vh;
+    
+    overflow-y: hidden;
+    cursor: pointer;
+}
+
+.archive{
+    height: auto;
+}
 
 
 .artists{
@@ -609,6 +769,10 @@ font-style: normal;
     background-color: white;
     overflow: hidden;
 
+}
+
+#JIA{
+    
 }
 
 .subject{
@@ -631,7 +795,8 @@ font-style: italic;
     font-size: 6vw;
 }
 
-.text{
+
+text{
     text-decoration: none;
     font-family: pill-gothic-600mg, sans-serif;
 
@@ -648,6 +813,7 @@ mark{
     font-style: normal;
     
 }
+
 
 
 

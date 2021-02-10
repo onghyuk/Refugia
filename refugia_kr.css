@@ -98,7 +98,7 @@ a{
     
     width: 100%;
     animation: main;
-    animation-delay: 4s;
+    animation-delay: 6s;
     animation-duration: 0.1s;
     animation-fill-mode: both;
     
@@ -118,7 +118,7 @@ a{
     z-index: 9;
     
     animation: point;
-    animation-delay: 1s;
+    animation-delay: 3s;
     animation-duration: 3s;
     animation-fill-mode: both;
 }
@@ -133,7 +133,7 @@ a{
     z-index: 9;
     
     animation: point;
-    animation-delay: 2s;
+    animation-delay: 5s;
     animation-duration: 2s;
     animation-fill-mode: both;
 }
@@ -373,6 +373,12 @@ z-index: 9;
     width: 35%;
     
 }
+
+.vanish{
+    
+    filter:blur(5px);
+}
+
 .gamevanish{
     width: 35%;
     display: none;
@@ -392,10 +398,7 @@ z-index: 9;
     
 }
 
-.vanish{
-    
-    filter:blur(5px);
-}
+
 
 #ob1{
     position: absolute;
@@ -435,8 +438,8 @@ z-index: 9;
 
 #ob7{
     position: absolute;
-    left: 60vw;
-    top:5vh;
+    left: 63vw;
+    top:12vh;
 }
 
 #ob8{
@@ -459,8 +462,8 @@ z-index: 9;
 
 #ob11{
     position: absolute;
-    left: 25vw;
-    top:6vh;
+    left: 65vw;
+    top:53vh;
 }
 
 #ob12{
@@ -494,13 +497,13 @@ z-index: 9;
 #ob16{
     position: absolute;
     left: 10vw;
-    top:5vh;
+    top:55vh;
 }
 
 #ob17{
     position: absolute;
     left: 55vw;
-    top:8vh;
+    top:70vh;
 }
 
 #ob18{
@@ -513,18 +516,123 @@ z-index: 9;
 
 #ob19{
     position: absolute;
-    left: 15vw;
-    top:22vh;
+    left: 17vw;
+    top:5vh;
     
     transform: rotate(180deg);
 }
 
 #ob20{
     position: absolute;
-    left: 55vw;
-    top:70vh;
+    left: 65vw;
+    top:32vh;
     
     transform: rotate(180deg);
+}
+
+#ob21{
+    position: absolute;
+    left: 5vw;
+    top:75vh;
+    
+    transform: rotate(180deg);
+}
+
+#ob22{
+    position: absolute;
+    left: 32vw;
+    top:50vh;
+    
+}
+
+#ob23{
+    position: absolute;
+    left: 6vw;
+    top:60vh;
+    
+}
+
+#ob24{
+    position: absolute;
+    left: 3vw;
+    top:45vh;
+    
+}
+
+#ob25{
+    position: absolute;
+    left:57vw;
+    top:62vh;
+    
+}
+
+#ob26{
+    position: absolute;
+    left:53vw;
+    top:75vh;
+   
+}
+
+#ob27{
+    position: absolute;
+    left:60vw;
+    top:45vh;
+   
+}
+
+#ob28{
+    position: absolute;
+    left:28vw;
+    top:65vh;
+    
+   
+}
+
+#ob29{
+    position: absolute;
+    left:18vw;
+    top:50vh;
+    
+    width: 35%;
+   
+}
+
+#ob30{
+    position: absolute;
+    left:45vw;
+    top:71vh;
+
+}
+
+#ob31{
+    position: absolute;
+    left:45vw;
+    top:70vh;
+}
+
+#ob32{
+    position: absolute;
+    left:30vw;
+    top:68vh;
+}
+
+#ob33{
+    position: absolute;
+    left:22vw;
+    top:68vh;
+}
+
+#ob34{
+    position: absolute;
+    left:6vw;
+    top:63vh;
+    width: 40%;
+}
+
+
+.bear{
+    width: 60%;
+    display: none;
 }
 
 #gameup{
@@ -657,7 +765,7 @@ z-index: 9;
 }
 
 #JIA{
-    margin-top: 1.6vw;
+    
 }
 
 .subject{

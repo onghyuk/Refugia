@@ -74,12 +74,36 @@
         
         <div id="menu" style="width: 0vw;">
                   <div id="menulist">
+                  
                   <a href="refugia_kr.html"><div id="link"><p>KR</p></div></a>
-                  <p>Exhibition</p>
+                  <a href="#about"><p>About</p></a>
                   <a href="#about"><p>Works</p></a>
+                  <div class="creditch" onclick="credit(this)">
                   <p>Credit</p>
+                  <p>큐레이토리얼 팀<br>
+큐레이터: 양지윤<br>
+프로젝트 매니저: 이선미<br>
+코디네이터: 권주리<br>
+홍보: 김다영<br>
+어시스턴트: 윤혜린<br>
+미디어 디자인: 신나라<br>
+기술: 서울오픈미디어<br><br>
+그래픽디자인 팀<br>
+아트디렉터: 김도형<br>
+디자인: 김락현, 양혜림, 이유민<br>
+웹디자인: 이손, 박예림</p>
+                      
+                  </div>
+                  <div class="archivech" onclick="archive(this)">
                   <p>Archive</p>  
-                  </div> 
+                  
+                  <a href="http://sfxseoul.org/archive/" target=_blank>
+                  <p>2007-2010</p></a>
+                <a href="http://sfxseoul.org/2017/" target=_blank><p>2017</p></a>
+                <a href="http://sfxseoul.org/2018/" target=_blank><p>2018</p></a>
+                <a href="http://sfxseoul.org/" target=_blank><p>2019</p> </a>       
+                  </div>
+            </div> 
             </div>
                 
         <div id="info">
@@ -99,6 +123,16 @@
         </div>
         
         <div id=game class="artists" onclick="play()">
+            
+             <img src="src/mushroom1.png" class="musroomobject" id="ob16" onclick="mshide(this); ms1()">
+              
+              <img src="src/mushroom2.png" class="musroomobject" id="ob17" onclick="mshide(this)">
+              
+              <img src="src/mushroom5.png" class="musroomobject" id="ob18" onclick="mshide(this); ms2()">
+              
+              <img src="src/mushroom6.png" class="musroomobject" id="ob19" onclick="mshide(this)">
+              
+              <img src="src/mushroom7.png" class="musroomobject" id="ob20" onclick="mshide(this); ms3()">
             
              <img src="src/0240386-1.png" class="companyobject" id="ob12"
              onclick="game2()">
@@ -124,7 +158,7 @@
              
              <img src="src/lemon.png" class="gameobject" id="ob6" onclick="hide(this)">
              
-             <img src="src/61o5kDaJEvL._AC_SL1500_.png" class="companyobject" id="ob11" onclick="game3()">
+             
              
              <img src="src/shutterstock_1486330808.png" class="gameobject" id="ob7" onclick="hide(this)">
              
@@ -137,24 +171,51 @@
               <img src="src/flowerandleaves3.png" class="gameobject" id="ob9" onclick="hide(this)">
               <img src="src/flowerandleaves2.png" class="gameobject" id="ob10" onclick="hide(this)">
               
-              <img src="src/mushroom1.png" class="musroomobject" id="ob16" onclick="mshide(this)">
               
-              <img src="src/mushroom2.png" class="musroomobject" id="ob17" onclick="mshide(this)">
               
-              <img src="src/mushroom5.png" class="musroomobject" id="ob18" onclick="mshide(this)">
               
-              <img src="src/mushroom6.png" class="musroomobject" id="ob19" onclick="mshide(this)">
               
-              <img src="src/mushroom7.png" class="musroomobject" id="ob20" onclick="mshide(this)">
               
-             
-             
-             
-             
-             
-             
-             
-             
+              
+              <img src="src/flowerandleaves2.png" class="gameobject" id="ob21" onclick="hide(this)">
+              
+              <img src="src/flowerandleaves3.png" class="gameobject" id="ob22" onclick="hide(this)">
+              
+              <img src="src/leaves4.png" class="gameobject" id="ob23" onclick="hide(this)">
+              
+              <img src="src/shutterstock_118447009.png" class="gameobject" id="ob24" onclick="hide(this)">
+              
+              <img src="src/shutterstock_212952697.png" class="gameobject" id="ob25" onclick="hide(this)">
+              
+              <img src="src/bayer%20advanced-9224999-31402790-main.png" class="companyobject" id="ob30" onclick="game7()">
+              
+              <img src="src/shutterstock_15455178777.png" class="gameobject" id="ob26" onclick="hide(this)">
+              
+              <img src="src/61o5kDaJEvL._AC_SL1500_.png" class="companyobject" id="ob11" onclick="game3()">
+              
+              <img src="src/shutterstock_472148893.png" class="gameobject" id="ob27" onclick="hide(this)">
+              
+              
+              
+              <img src="src/shutterstock_1486330808.png" class="gameobject" id="ob28" onclick="hide(this)">
+              
+              
+              
+               <img src="src/shutterstock_15049134236.png" class="bear" id="ob31" onclick="bear1()">
+               
+               <img src="src/shutterstock_15049134232.png" class="bear" id="ob32" onclick="bear2()">
+               
+               <img src="src/shutterstock_1504913423.png" class="bear" id="ob33"onclick="bear3()">
+               
+               <img src="src/shutterstock_15049134234.png" class="bear" id="ob34"onclick="bear4()">
+              
+              
+              
+              <img src="src/Bayer-Advanced-Season-Long-Weed-Control-for-Lawn-Concentrate-24-Ounce-47d9a6ad-ee0a-4e7b-af65-1ce2130fd337.png" class="companyobject" id="ob29" onclick="game6();">
+              
+              
+              
+            
              
              <img src="src/US-Roundup-Extended-Control-Weed-And-Grass-Killer-Plus-Weed-Preventer-Ii-II-Main-5101910-Xxl.png.Duplicate2.png" class="companyobject" id="ob14" onclick="game()">
              
@@ -739,19 +800,73 @@ function upbutton() {
 
 
 <script>
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-  if (document.body.scrollTop > 160 || document.documentElement.scrollTop > 160) {
-    document.getElementById("game").style.height = "0vh";
-     document.getElementById("game").style.border = "none"; 
-      
-     document.getElementById("gameup").style.display = "block";  
-  } else {
-    
-  }
+function myFunction(x) {
+  x.classList.toggle("change");
 }    
+    
+function archive(x) {
+  x.classList.toggle("archive");
+}  
+    
+function credit(x) {
+  x.classList.toggle("credit");
+}     
+    
+function menu() {
+
+  var x = document.getElementById("menu");
+  
+    
+  if (x.style.width === "0vw") {
+    x.style.width = "110vw";
+  } else {
+    x.style.width = "0vw";
+  }
+        
+ 
+}      
+    
+function play() {
+        var audio = document.getElementById("audio");
+        audio.play();
+      }    
+    
+       
 </script>
+<script>
+    
+    
+function gameup() {
+document.getElementById("game").style.height = "98vh"; 
+document.getElementById("game").style.border = "2px solid black";     
+
+document.getElementById("game").style.position = "fixed"; 
+    
+document.getElementById("game").style.top = "1vh";    
+}  
+    
+    
+function upbutton() {
+  var x = document.getElementById("gameup");
+  
+    
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+        
+   
+}
+    
+
+     
+     
+</script> 
+   
+
+
+
 <script>
 
 function game() {
@@ -761,6 +876,10 @@ document.getElementById("ob1").style.filter = "hue-rotate(100deg)";
   document.getElementById("ob4").style.filter = "hue-rotate(40deg)"; 
  document.getElementById("ob16").style.display = "block"; 
     
+document.getElementById("ob21").style.filter = "hue-rotate(50deg)"; 
+  document.getElementById("ob27").style.filter = "hue-rotate(40deg)"; 
+ document.getElementById("ob16").style.display = "block";     
+    
  document.getElementById("ob14").style.filter= "blur(5px)";     
 } 
     
@@ -768,6 +887,8 @@ function game2() {
  document.getElementById("ob5").style.filter = "hue-rotate(80deg)";
  document.getElementById("ob6").style.filter = "hue-rotate(50deg)"; 
   document.getElementById("ob7").style.filter = "hue-rotate(40deg)"; 
+document.getElementById("ob22").style.filter = "hue-rotate(50deg)"; 
+  document.getElementById("ob24").style.filter = "hue-rotate(40deg)";
    document.getElementById("ob18").style.display = "block"; 
     document.getElementById("ob12").style.filter= "blur(5px)";  
 }
@@ -798,6 +919,79 @@ document.getElementById("ob20").style.filter = "hue-rotate(100deg)";
  document.getElementById("ob15").style.filter= "blur(5px)";     
 }     
     
+function game6() {
+document.getElementById("ob20").style.filter = "hue-rotate(100deg)";
+ document.getElementById("ob19").style.filter = "hue-rotate(150deg)";
+ document.getElementById("ob18").style.filter = "hue-rotate(180deg)"; 
+  document.getElementById("ob17").style.filter = "hue-rotate(200deg)"; 
+ document.getElementById("ob16").style.filter = "hue-rotate(150deg)"; 
+    
+ document.getElementById("ob29").style.filter= "blur(5px)";     
+}     
+    
+function game7() {
+document.getElementById("ob25").style.filter = "hue-rotate(100deg)";
+ document.getElementById("ob22").style.filter = "hue-rotate(150deg)";
+ document.getElementById("ob23").style.filter = "hue-rotate(180deg)"; 
+  document.getElementById("ob24").style.filter = "hue-rotate(200deg)"; 
+ document.getElementById("ob16").style.filter = "hue-rotate(150deg)"; 
+    
+ document.getElementById("ob30").style.filter= "blur(5px)";     
+}         
+    
+function bear1() {
+    document.getElementById("ob31").style.display = "none"
+    document.getElementById("ob32").style.display = "block";
+}
+    
+    function bear2() {
+    document.getElementById("ob32").style.display = "none"
+    document.getElementById("ob33").style.display = "block";
+}
+    
+     function bear3() {
+    document.getElementById("ob33").style.display = "none"
+    document.getElementById("ob34").style.display = "block";
+}
+    
+     function bear4() {
+    document.getElementById("ob34").style.display = "none"
+         document.getElementById("ob16").style.display = "none"
+         document.getElementById("ob17").style.display = "none"
+         document.getElementById("ob18").style.display = "none"
+         
+         document.getElementById("ob19").style.display = "none"
+         
+         document.getElementById("ob20").style.display = "none";
+   
+}
+    
+    function ms1() {
+    document.getElementById("ob15").style.display = "none"
+        
+    document.getElementById("ob30").style.display = "none";
+        
+        document.getElementById("ob31").style.display = "block";  
+   
+}
+    
+    function ms2() {
+    document.getElementById("ob12").style.display = "none"
+        document.getElementById("ob13").style.display = "none"
+        
+         document.getElementById("ob11").style.display = "none";
+   
+}
+    
+    function ms3() {
+    document.getElementById("ob29").style.display = "none"
+        
+        document.getElementById("ob14").style.display = "none"
+        
+        
+   
+}
+    
 function hide(x) {
   x.classList.toggle("gamevanish");
 }
@@ -811,6 +1005,22 @@ function blur(x) {
 }       
     
 
+</script>
+
+<script>
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 160 || document.documentElement.scrollTop > 160) {
+    document.getElementById("game").style.height = "0vh";
+     document.getElementById("game").style.border = "none"; 
+      
+     document.getElementById("gameup").style.display = "block";  
+  } 
+   else {
+      
+  }
+}      
 </script>
 
 
