@@ -141,19 +141,13 @@ body{
         z-index:8;
     }
     
-    #windowblock{
-        position: fixed;
-        left: 38vw;
-        top:8vh;
-        width: 26vw;
-        height: 41.4vw;
-        z-index: 9;
-    }
+    
     
     .background{
         display: block;
         position: absolute;
         left: -15vw;
+        top:0px;
         width: 100vw;
         height: 100vh;
         z-index: 1;
