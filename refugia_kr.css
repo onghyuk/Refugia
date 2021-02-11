@@ -55,15 +55,21 @@ body{
     padding: 0px;
    
     font-family: Noto Sans KR, sans-serif;
-    font-weight: 900;
+    font-weight: 700;
 
     font-style: normal;
     
     overflow-x: hidden;
     
+    font-size: 6vw;
+    line-height: 11vw;   
+    
 }
 
-
+p{
+    line-height: 11vw; 
+    margin: 0px;
+}
 
 .br{
     display: block; 
@@ -77,28 +83,29 @@ ins{
 
 #content{
     position: absolute;
-    width: 96vw;
-    height: autoxs;
+    width: 95vw;
+    height: auto;
     margin-top: 2vw;
     margin-bottom: 2vw;
     padding-left: 2vw;
     padding-right: 2vw;
     z-index: 2;
+    overflow-x: hidden;
    
     
 }
 
 .imgname{
     width: 100%;
-    margin-bottom: -5.5vh;
     
 }
 
 #header{
-    position: absolute;
+    position: relative;
     top:0px;
     
-    width: 96%;
+    width: 100%;
+    height: 100%;
     
     
     z-index: 9;
@@ -136,10 +143,10 @@ a{
 #point{
     position: absolute;
     left:4vw;
-    top:-30px;
+    top:-10vh;
    
     width:90%;
-    height: 50vh;
+    height: 20vh;
     
     
     z-index: 9;
@@ -153,10 +160,10 @@ a{
 #point2{
     position: absolute;
     left:4vw;
-    top:-30px;
+    top:-10vh;
     
     width:90%;
-    height: 50vh;
+    height: 20vh;
     z-index: 9;
     
     animation: point;
@@ -311,17 +318,20 @@ a{
 
 #minilogo{
 position: relative;
-top:-28px;
+top:0px;
 left: 17vw;
 
 margin: 0 auto;    
 z-index: 9;
 width: 65%;
+height: auto;    
     
 animation: logo;
 animation-delay: 3.5s;
 animation-fill-mode: both;    
 }
+
+
 
 #hamburger{
 position: fixed;
@@ -354,10 +364,10 @@ z-index: 9;
 
 
 #info{
-    position: absolute;
-    top:0vh;
-    width: 95%;
-    height: 270vw;
+    position: relative;
+    top:0px;
+    width: 100%;
+    height: 100%;
     
     
     border: 2px solid black;
@@ -369,31 +379,35 @@ z-index: 9;
 
 
 #infotext{
-    position: absolute;
-    top:10%;
-    width: auto;
+    position: relative;
+    top:0px;
+    width: 97%;
+    height: auto;
     
     font-family: Noto Sans KR, sans-serif;
-    font-weight: 900;
+    font-weight: 700;
 
     font-style: normal;
-    font-size: 8vw;
+    font-size: 6vw;
+    line-height: 11vw;
     
     
     z-index: 9;
-    padding-left: 4%;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-bottom: 2vw;
    
 }
 
 #game{
     position: absolute;
-    width: 95%;
+    width: 96%;
     height: 70vh;
     
     top:50vh;
     
     border: 2px solid black;
-    z-index: 8;
+    z-index: 9;
     background-color: white;
     
     cursor: url(cursor.png),auto;
@@ -403,6 +417,7 @@ z-index: 9;
     border-bottom: 2px solid black;
     background-color: white;
     overflow: hidden;
+    display: block;
 }
 
 .gameobject{
@@ -675,7 +690,7 @@ z-index: 9;
   position: fixed;
   left: 42vw;
   cursor: pointer;
-  top:95%;    
+  top:99%;    
   width: 0; 
   height: 0; 
   border-left: 30px solid transparent;
@@ -703,7 +718,7 @@ z-index: 9;
 
 #works{
     position: relative;
-    top:268vw;
+    top:0px;
     width:100%;
     height:100%; 
     z-index: 4;
@@ -712,22 +727,29 @@ z-index: 9;
     
 }
 
-#ER {
-    padding-top: 3vw;
-}
+
+
 #artistlist{
-    position: sticky;
-    top:1px;;
-    width: 99%;
-    text-align: center;
+    position: fixed;
+    top:2vw;
+    left: 2vw;
+    width: 46%;
+    height: 20%;
+    text-align: left;
     border: 2px solid black;
     overflow-y: scroll;
     
-    
+    padding: 2vw;
+    font-size: 6vw;
+    line-height: 5vw;
     background-color: white;
-    z-index: 8;
+    z-index: 9;
     
 }
+
+
+
+
 
 
 
@@ -796,10 +818,11 @@ z-index: 9;
 .artists{
     position: relative;
     top:0px;
-    width: 99%;
+    width: 100%;
     height: 100%;
     
     padding-top: 2vw;
+    padding-bottom: 2vw;
     
     
     border-left: 2px solid black;
@@ -808,12 +831,14 @@ z-index: 9;
     
     
     background-color: white;
-    overflow: hidden;
+    
+    
 
 }
 
-#JIA{
-    
+
+#ER:hover + nvER {
+    text-decoration: line-through;
 }
 
 .subject{
@@ -827,7 +852,8 @@ i{
     
 
 font-style: italic;
-    font-size: 6vw;
+font-size: 6vw;
+line-height: 11vw;    
 }
 
 .text{
@@ -854,15 +880,21 @@ mark{
 
 
 audio{
-    margin-left: 3vw;
+    padding-left: 2vw;
+    width: 95%;
+    margin-bottom:  -1vw;
+    
 }
 
 .artistinfo{
     
-    margin-top: 10vw;
+    margin-top: -3vw;
     z-index: 8;
-    font-size: 6vw;
-    margin-left: 3vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-bottom: 2vw;
+    
+    
     
 }
 
@@ -875,8 +907,9 @@ audio{
 }
 
 .workpage{
+    position: relative;
     width: 100%;
-    height: 30vh;
+    height: auto;
     
     margin-top: 2vw;
     margin-bottom: 2vw;
@@ -885,9 +918,12 @@ audio{
 }
 
 .workpageaudio{
+    position: relative;
     width: 100%;
-    height: 8vh;
+    height: auto;
     
+    margin-top: 2vw;
+    margin-bottom: 2vw;
     
     
     
