@@ -859,17 +859,7 @@ z-index: 9;
     background-color: white;
 }
 
-#nvER{
-    
-}
 
-#ER{
-    
-}
-
-#ER div:hover + #nvER{
-    text-decoration: line-through;
-}
 
 
 
