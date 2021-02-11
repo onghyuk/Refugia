@@ -684,9 +684,10 @@ z-index: 9;
 
 #gameup{
   position: fixed;
+  bottom: 0px;
   left: 42vw;
   cursor: pointer;
-  top:99%;    
+    
   width: 0; 
   height: 0; 
   border-left: 30px solid transparent;
