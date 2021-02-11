@@ -5,7 +5,7 @@
     <title>Refugia</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <link rel="stylesheet" href="refugia_kr.css">
-
+   
   
    
 
@@ -17,13 +17,14 @@
 <body>
 <audio id="audio" src="spray3.mp3"></audio>
 
-<div id=wrapper>
+<div id=wrapper class="mainwrapper">
    <div id=content class="container">
         <div id=header>
-        <div id="book">
+        <a href="https://booking.naver.com/booking/12/bizes/404506/items/3786839"><div id="book">
         <img src="book_kr.png" style="width: 100%"> 
-        </div>    
-        <div id="language"><img src="EN.png" style="width: 100%"></div> 
+        </div></a>  
+        <a href="refugia_en.html" target="_parent">
+        <div id="language"><img src="EN.png" style="width: 100%"></div></a>
          
            
          
@@ -243,7 +244,7 @@
             
             <div id="artistlist">
              
-                <a href="#ER"><p>엘리안느 라디그</p></a>
+                <a href="#ER" id="nvER"><p>엘리안느 라디그</p></a>
                 <a href="#TL" id="nvTL"><p>타니아 레온</p></a> 
                 <a href="#YEM" id="nvYEM"><p>민예은</p></a>
                 <a href="#SL" id="nvSL"><p>이슬기</p></a> 
@@ -850,7 +851,7 @@ POP ! POP ! POP ! 여기 저기 코르크가 터지며 은밀한 축제의 시�
             </div>
             <div class="bio">
             <p>함양아 (1968년생)
- <ins class = "text">
+ <ins class = "text" id="footer">
 함양아는 한국, 네덜란드, 터키 등 여러 지역에 거주한 경험을 토대로 사회시스템 안에서 존재하는 개인과 집단, 그리고 사회화된 자연에 대한 작업을 해오고 있다. 주요 전시로는 &lt;흔들리는 사람들에게: 2020 타이틀매치 함양아 vs. 서동진, 북서울시립미술관, 2020>, &lt;정의되지 않은 파노라마 2.0, 대안공간 루프, 서울, 2019>, &lt;트랜스-저스티스, 타이베이 시립미술관, 2018>, &lt;아시아 아트 비엔날레, 대만 국립현대미술관, 2017>, &lt;미디어시티서울 비엔날레, 서울시립미술관, 2016>, &lt;불협화음의 하모니 전, 아트선재센터, 히로시마 시립미술관, 타이베이 관두미술관, 2015-2016>, &lt;올해의 작가상 전, 국립현대미술관, 과천, 2013> 등이 있다. 2004년 다음작가상, 2005년 한국문화예술위원회 올해의 예술상을 수상했고, 2006년부터 2007년까지 암스테르담 라익스 아카데미 레지던시에 참여했다.
 
 
@@ -864,8 +865,24 @@ POP ! POP ! POP ! 여기 저기 코르크가 터지며 은밀한 축제의 시�
             
             
             
-            
-          
+         <div id="credit">
+             <div id="top" onclick="topFunction()"><img src="top_kr.png" style="width: 100%"></div>
+             <p>크레딧</p>
+             <p>큐레이토리얼 팀</p>
+             <p>큐레이터: 양지윤</p>
+             <p>프로젝트 매니저: 이선미</p>
+             <p>코디네이터: 권주리</p>
+             <p>홍보: 김다영</p>
+             <p>어시스턴트: 윤혜린</p>
+             <p>미디어 디자인: 신나라</p>
+             <p>기술: 서울오픈미디어</p>
+        
+        <p>그래픽디자인 팀</p>
+        <p>아트디렉터: 김도형</p>
+        <p>디자인: 김락현, 양해림, 이유민</p>
+        <p>웹디자인: 이손, 박예림</p>
+        
+         </div>
          
             
             
@@ -876,6 +893,7 @@ POP ! POP ! POP ! 여기 저기 코르크가 터지며 은밀한 축제의 시�
             
         </div>
    </div>
+   
    
    
 
@@ -895,6 +913,11 @@ POP ! POP ! POP ! 여기 저기 코르크가 터지며 은밀한 축제의 시�
 
 
 <script>
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+    
 function myFunction(x) {
   x.classList.toggle("change");
 }    
@@ -1122,7 +1145,6 @@ function scrollFunction() {
 }      
 </script>
 
- 
 
 
    

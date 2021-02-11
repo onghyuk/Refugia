@@ -696,6 +696,10 @@ font-style: normal;
     
 }
 
+#ER:hover{
+ text-decoration: line-through;
+}
+
 
   #menu{
     position: fixed;
@@ -764,6 +768,7 @@ font-style: normal;
     width: 99%;
     height: 110%;
     
+    
     padding-top: 2vw;
     border-left: 2px solid black;
     border-right: 2px solid black;
@@ -772,6 +777,8 @@ font-style: normal;
     overflow: hidden;
 
 }
+
+
 
 #JIA{
     

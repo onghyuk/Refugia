@@ -59,7 +59,9 @@ body{
     overflow-x: hidden;
     
     font-size: 6vw;
-    line-height: 11vw;   
+    line-height: 11vw;  
+    
+    
     
 }
 
@@ -704,7 +706,7 @@ z-index: 9;
 #gameup{
   position: fixed;
   bottom: 0px;
-  right: 2vw;
+  right: 2.5vw;
   cursor: pointer;
     
   width: 15vw; 
@@ -846,15 +848,21 @@ z-index: 9;
     
     
     background-color: white;
-    
-    
-
 }
 
+#nvER{
+    
+}
 
-#ER:hover + nvER {
+#ER{
+    
+}
+
+#ER div:hover + #nvER{
     text-decoration: line-through;
 }
+
+
 
 .subject{
     
@@ -971,7 +979,7 @@ audio{
     padding-left: 2vw;
 
     padding-right: 2vw;  
-    
+    ㅈ
     z-index: 7;
     
     
@@ -997,3 +1005,25 @@ audio{
     top: 0px;
     z-index: 4;
 }
+
+#top{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 15vw;
+    height: 15vw;
+    
+    background-color: black;
+    color: white;
+}
+
+#credit{
+    position: relative;
+    top:-2px;
+    padding: 2vw;
+    width: 95.9%;
+    height: auto;
+    
+    border: 2px solid black;
+}
+
