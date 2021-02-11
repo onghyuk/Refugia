@@ -42,11 +42,8 @@
 
 
 @keyframes point{
-    0%{opacity: 0; top:8vh;}
-    1%{opacity: 1; top:8vh;}
-    98%{opacity: 1; top:8vh;}
-    99%{opacity: 0; top:8vh;}
-    100%{opacity: 0; top:-50vh;}
+    0%{opacity: 0;}
+    100%{opacity: 1;}
 }
 
 
@@ -142,33 +139,35 @@ a{
 
 #point{
     position: absolute;
-    left:4vw;
-    top:-10vh;
+    left:18vw;
+    top:0vh;
    
-    width:90%;
-    height: 20vh;
+    width:65%;
+    height: auto;
+    
+    
+    z-index: 9;
+    
+    animation: point;
+    animation-delay: 2s;
+    animation-duration: 0.1s;
+    animation-fill-mode: both;
+}
+
+#point2{
+    position: absolute;
+    left:18vw;
+    top:0vh;
+   
+    width:65%;
+    height: auto;
     
     
     z-index: 9;
     
     animation: point;
     animation-delay: 3s;
-    animation-duration: 3s;
-    animation-fill-mode: both;
-}
-
-#point2{
-    position: absolute;
-    left:4vw;
-    top:-10vh;
-    
-    width:90%;
-    height: 20vh;
-    z-index: 9;
-    
-    animation: point;
-    animation-delay: 5s;
-    animation-duration: 2s;
+    animation-duration: 0.1s;
     animation-fill-mode: both;
 }
 
@@ -319,16 +318,13 @@ a{
 #minilogo{
 position: relative;
 top:0px;
-left: 17vw;
+left: 18vw;
 
 margin: 0 auto;    
 z-index: 9;
 width: 65%;
 height: auto;    
     
-animation: logo;
-animation-delay: 3.5s;
-animation-fill-mode: both;    
 }
 
 
