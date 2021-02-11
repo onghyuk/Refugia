@@ -725,6 +725,7 @@ z-index: 9;
     
     
     
+    
 }
 
 
@@ -865,7 +866,6 @@ font-style: bold;
     
 
 
-
 font-size: 6vw;
 line-height: 11vw;
     
@@ -888,11 +888,12 @@ audio{
 
 .artistinfo{
     
-    margin-top: -3vw;
+    
     z-index: 8;
     padding-left: 2vw;
-    padding-right: 2vw;
-    padding-bottom: 2vw;
+
+    padding-right: 2vw;    
+
     
     
     
@@ -933,23 +934,27 @@ audio{
 .statement{
     
     position: relative;
-    margin-left: 3vw;
-    margin-right: 3vw;
+    padding-left: 2vw;
+
+    padding-right: 2vw;  
     
     z-index: 7;
     
-    margin-top: 0vw;
-    font-size: 6vw;
+    
+    
 }
 
 .bio{
-    margin-left: 3vw;
+    
     
     z-index: 7;
     
-    margin-right: 3vw;
-    margin-top: 12vw;
-    font-size: 6vw;
+    padding-left: 2vw;
+
+    padding-right: 2vw;  
+    padding-top: 5vw;
+    
+   
 }
 
 .map{
