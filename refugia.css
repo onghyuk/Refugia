@@ -8,11 +8,6 @@
     0%{opacity: 1}
     10%{opacity: 0;}
     100%{opacity: 0}
-    
-}@keyframes main{
-    0%{opacity: 1}
-    10%{opacity: 0;}
-    100%{opacity: 0}
 }
 
 @keyframes logo{
@@ -22,11 +17,8 @@
 
 
 @keyframes point{
-    0%{opacity: 0; top:8vh;}
-    1%{opacity: 1; top:8vh;}
-    98%{opacity: 1; top:8vh;}
-    99%{opacity: 0; top:8vh;}
-    100%{opacity: 0; top:-50vh;}
+    0%{opacity: 0;}
+    100%{opacity: 1;}
 }
 
 
@@ -34,32 +26,60 @@ body{
     margin: 0px;
     padding: 0px;
    
-    font-family: noto-sans-cjk-kr, sans-serif;
-
-    font-weight: 900;
+    font-family: pill-gothic-900mg, sans-serif; 
+    font-weight: 700;  font-style: normal;
+    
 
     font-style: normal;
     
     overflow-x: hidden;
     
+    font-size: 6vw;
+    line-height: 11vw;  
+    
     
     
 }
 
+h1{
+    font-family: refugia;
+    font-size: 21vw;
+    line-height: 19vw;
+    text-align: center;
+    margin-top: 0vw;
+    margin-bottom: 3vw;
+}
+
+#ckNAME{
+    font-size: 18vw;
+    line-height: 16vw;
+}
+
+p{
+    line-height: 11vw; 
+    margin: 0px;
+}
+
+.br{
+    display: block; 
+    margin-bottom: 2vw;
+}
+
 ins{
-    
+    text-decoration: none;
 }
 
 
 #content{
     position: absolute;
-    width: 96vw;
-    height: autoxs;
+    width: 94.5vw;
+    height: auto;
     margin-top: 2vw;
     margin-bottom: 2vw;
     padding-left: 2vw;
     padding-right: 2vw;
     z-index: 2;
+    overflow-x: hidden;
    
     
 }
@@ -70,15 +90,44 @@ ins{
 }
 
 #header{
-    position: absolute;
+    position: relative;
     top:0px;
     
-    width: 96%;
+    width: 100%;
+    height: 100%;
     
     
     z-index: 9;
     
     
+}
+
+#book{
+    position: absolute;
+    left: -1vw;
+    top: 0vw;
+    
+    width: 15vw;
+    height: auto;
+    z-index: 10;
+}
+
+#language{
+    position: absolute;
+    right: -2vw;
+    top:-2vw;
+    width: 15vw;
+    height: auto;
+    z-index: 10;
+}
+
+#insta{
+    position: absolute;
+    right: -7.5vw;
+    top:6vw;
+    width: 15vw;
+    height: auto;
+    z-index: 10;
 }
 
 a{
@@ -93,16 +142,14 @@ a{
 
 #logo{
     position: absolute;
-    top:5vh;
+    top:7vh;
     left: 0vw;
-    text-align: center;
-    font-size: 14vw;
-    letter-spacing: -10px;
-    font-family: refugia;
+    
     z-index: 9;
     
+    width: 100%;
     animation: main;
-    animation-delay: 4s;
+    animation-delay: 6s;
     animation-duration: 0.1s;
     animation-fill-mode: both;
     
@@ -112,33 +159,35 @@ a{
 
 #point{
     position: absolute;
-    left:4vw;
-    top:10vh;
+    left:18vw;
+    top:0vh;
    
-    width:90%;
-    height: 50vh;
+    width:65%;
+    height: auto;
+    
+    
+    z-index: 9;
+    
+    animation: point;
+    animation-delay: 2s;
+    animation-duration: 0.1s;
+    animation-fill-mode: both;
+}
+
+#point2{
+    position: absolute;
+    left:18vw;
+    top:0vh;
+   
+    width:65%;
+    height: auto;
     
     
     z-index: 9;
     
     animation: point;
     animation-delay: 3s;
-    animation-duration: 3s;
-    animation-fill-mode: both;
-}
-
-#point2{
-    position: absolute;
-    left:4vw;
-    top:9vh;
-    
-    width:90%;
-    height: 50vh;
-    z-index: 9;
-    
-    animation: point;
-    animation-delay: 5s;
-    animation-duration: 2s;
+    animation-duration: 0.1s;
     animation-fill-mode: both;
 }
 
@@ -288,17 +337,17 @@ a{
 
 #minilogo{
 position: relative;
-top:-28px;
-left: 17vw;
+top:0px;
+left: 18vw;
 
 margin: 0 auto;    
 z-index: 9;
 width: 65%;
+height: auto;    
     
-animation: logo;
-animation-delay: 3.5s;
-animation-fill-mode: both;    
 }
+
+
 
 #hamburger{
 position: fixed;
@@ -331,10 +380,10 @@ z-index: 9;
 
 
 #info{
-    position: absolute;
-    top:0vh;
-    width: 95%;
-    height: 200vw;
+    position: relative;
+    top:0px;
+    width: 100%;
+    height: 100%;
     
     
     border: 2px solid black;
@@ -346,35 +395,45 @@ z-index: 9;
 
 
 #infotext{
-    position: absolute;
-    top:10%;
-    width: auto;
-    font-family: pill-gothic-600mg, sans-serif;
-
-font-weight: 800;
-
-font-style: normal;
+    position: relative;
+    top:0px;
+    width: 97%;
+    height: auto;
     
-    font-size: 7.3vw;
+    font-family: pill-gothic-900mg, sans-serif;  font-weight: 700;  font-style: normal;
+    
+
+    font-style: normal;
+    font-size: 6vw;
+    line-height: 11vw;
     
     
     z-index: 9;
-    padding-left: 4%;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-bottom: 0.5vw;
    
 }
 
 #game{
     position: absolute;
-    width: 95%;
-    height: 70vh;
+    width: 96%;
+    height: 97vh;
     
     top:50vh;
     
     border: 2px solid black;
-    z-index: 8;
+    z-index: 9;
     background-color: white;
     
     cursor: url(cursor.png),auto;
+    
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    background-color: white;
+    overflow: hidden;
+    display: block;
 }
 
 .gameobject{
@@ -645,14 +704,13 @@ font-style: normal;
 
 #gameup{
   position: fixed;
-  left: 42vw;
+  bottom: 0px;
+  right: 2.5vw;
   cursor: pointer;
-  top:95%;    
-  width: 0; 
-  height: 0; 
-  border-left: 30px solid transparent;
-  border-right: 30px solid transparent;
-  border-bottom: 30px solid black;
+    
+  width: 15vw; 
+  height: 15vw; 
+  
   z-index: 9;
   display: none;    
 }
@@ -675,30 +733,40 @@ font-style: normal;
 
 #works{
     position: relative;
-    top:196.9vw;
+    top:0px;
     width:100%;
     height:100%; 
     z-index: 4;
     
+    
+    
+    
 }
 
+
+
 #artistlist{
-    position: sticky;
-    top:1px;;
-    width: 99%;
-    text-align: center;
+    position: fixed;
+    top:2vw;
+    left: 2vw;
+    width: 46%;
+    height: 20%;
+    text-align: left;
     border: 2px solid black;
     overflow-y: scroll;
     
-    
+    padding: 2vw;
+    font-size: 6vw;
+    line-height: 5vw;
     background-color: white;
-    z-index: 8;
+    z-index: 9;
     
 }
 
-#ER:hover{
- text-decoration: line-through;
-}
+
+
+
+
 
 
   #menu{
@@ -710,7 +778,7 @@ font-style: normal;
     width: 0vw;
     height:100vh;
       
-    z-index: 8;  
+    z-index: 7;  
     overflow-x: hidden;
     overflow-y: scroll;
 }
@@ -721,6 +789,7 @@ font-style: normal;
     right:4vw;
     text-align: right;
     line-height: 5vw;
+    z-index: 7; 
 }
 
 .creditch{
@@ -764,106 +833,131 @@ font-style: normal;
 
 .artists{
     position: relative;
-    top:10px;
-    width: 99%;
-    height: 110%;
-    
+    top:0px;
+    width: 100%;
+    height: 100%;
     
     padding-top: 2vw;
+    padding-bottom: 2vw;
+    
+    
     border-left: 2px solid black;
     border-right: 2px solid black;
     border-bottom: 2px solid black;
-    background-color: white;
-    overflow: hidden;
-
-}
-
-
-
-#JIA{
     
+    
+    background-color: white;
 }
+
+
+
+
 
 .subject{
-    text-decoration: underline;
-    font-family: pill-gothic-600mg, sans-serif;
-
-font-weight: 800;
-
-font-style: oblique;
+    
+    font-style: italic;
     
 }
 
 i{
     text-decoration: none;
-    font-family: pill-gothic-600mg, sans-serif;
-
-font-weight: 600;
+    
 
 font-style: italic;
-    font-size: 6vw;
+font-size: 6vw;
+line-height: 11vw;    
 }
 
+.text{
+    
+    
+font-family: pill-gothic-900mg, sans-serif;  font-weight: 700;  font-style: normal;
+font-weight: 700;    
+font-style: bold;
+    
 
-text{
-    text-decoration: none;
-    font-family: pill-gothic-600mg, sans-serif;
 
-font-weight: 600;
-
-font-style: normal;
-    font-size: 6vw;
+font-size: 6vw;
+line-height: 11vw;
+    
 }
 
 mark{
     
-    font-family: pill-gothic-600mg, sans-serif;
-    font-weight: 700;
-    font-style: normal;
+    
     
 }
-
 
 
 
 audio{
-    margin-left: 3vw;
+    padding-left: 2vw;
+    width: 95%;
+    margin-bottom:  -1vw;
+    
 }
 
 .artistinfo{
     
-    margin-top: 10vw;
-    z-index: 8;
-    font-size: 6vw;
-    margin-left: 3vw;
     
+    z-index: 8;
+    padding-left: 2vw;
+    padding-right: 2vw;    
+
+    
+    
+    
+}
+
+.loof{
+    font-size: 6vw;
+    background-color: yellow;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.tbs{
+    font-size: 6vw;
+    background-color: greenyellow;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.web{
+    font-size: 6vw;
+    background-color: lightgray;
+    padding-left: 3px;
+    padding-right: 3px;
 }
 
 .artistname{
     font-family: refugia;
-    margin-top: 0vh;
+    margin-top: 1vh;
     font-size: 18vw;
     text-align: center;
     line-height: 9vh;
-    margin-bottom: -3vh;
 }
 
 .workpage{
+    position: relative;
     width: 100%;
-    height: 30vh;
+    height: auto;
     
-    margin-top: 8vw;
-    margin-bottom: 15px;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
     
     z-index: 8;
 }
 
 .workpageaudio{
+    position: relative;
     width: 100%;
-    height: 8vh;
+    height: auto;
     
-    margin-top: 8vw;
-    margin-bottom: 15px;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    
+    
     
     z-index: 8;
 }
@@ -871,34 +965,27 @@ audio{
 .statement{
     
     position: relative;
-    margin-left: 3vw;
-    margin-right: 3vw;
+    padding-left: 2vw;
+
+    padding-right: 2vw;  
     
     z-index: 7;
     
-    margin-top: 5vw;
-    font-size: 6vw;
     
-}
-
-.text{
-    text-decoration: none;
-    font-family: pill-gothic-600mg, sans-serif;
-
-font-weight: 600;
-
-font-style: normal;
-    font-size: 6vw;
+    
 }
 
 .bio{
-    margin-left: 3vw;
+    
     
     z-index: 7;
     
-    margin-right: 3vw;
-    margin-top: 12vw;
-    font-size: 6vw;
+    padding-left: 2vw;
+
+    padding-right: 2vw;  
+    padding-top: 5vw;
+    
+   
 }
 
 .map{
@@ -906,4 +993,25 @@ font-style: normal;
     left: 0px;
     top: 0px;
     z-index: 4;
+}
+
+#top{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 15vw;
+    height: 15vw;
+    
+    background-color: black;
+    color: white;
+}
+
+#credit{
+    position: relative;
+    top:-2px;
+    padding: 2vw;
+    width: 95.9%;
+    height: auto;
+    background-color: white;
+    border: 2px solid black;
 }

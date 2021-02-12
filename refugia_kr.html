@@ -1281,7 +1281,18 @@ function mouseOut() {
   document.getElementById("nvYAH").style.textDecoration = "none";
 }    
 </script>
+<script>   
+document.getElementById("SF").addEventListener("mouseover", mouseOver);
+document.getElementById("SF").addEventListener("mouseout", mouseOut);
 
+function mouseOver() {
+  document.getElementById("nvSF").style.textDecoration = "line-through";
+}
+
+function mouseOut() {
+  document.getElementById("nvSF").style.textDecoration = "none";
+}    
+</script>
 
 <script>
 function topFunction() {
