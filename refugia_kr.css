@@ -46,6 +46,9 @@
     100%{opacity: 1;}
 }
 
+html {
+  height: -webkit-fill-available;
+}
 
 body{
     margin: 0px;
@@ -61,7 +64,8 @@ body{
     font-size: 6vw;
     line-height: 11vw;  
     
-    
+    min-height: 100vh;
+    min-height: -webkit-fill-available;
     
 }
 
