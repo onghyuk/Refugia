@@ -1161,7 +1161,12 @@ Festival, 런던, 2010&gt;, &lt;영국 국립 청소년 오케스트라&gt; 레�
     
     
 </body>
-
+<script>
+    // First we get the viewport height and we multiple it by 1% to get a value for a vh unit
+let vh = window.innerHeight * 0.01;
+// Then we set the value in the --vh custom property to the root of the document
+document.documentElement.style.setProperty('--vh', `${vh}px`);
+    </script>
 <script>
 document.getElementById("ER").addEventListener("mouseover", mouseOver);
 document.getElementById("ER").addEventListener("mouseout", mouseOut);
