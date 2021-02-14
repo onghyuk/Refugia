@@ -718,7 +718,7 @@ z-index: 9;
 
 #gameup{
   position: fixed;
-  top:91.5vh;
+  bottom: 0px;
   right: 2.5vw;
   cursor: pointer;
     
