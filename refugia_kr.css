@@ -129,15 +129,15 @@ ins{
 }
 
 #book{
-    position: fixed;
-    left: -1vw;
-    top: 0vw;
+    position: absolute;
+    left: 45vw;
+    top: 58vw;
     
     width: 15vw;
     height: auto;
     z-index: 10;
     
-    filter:drop-shadow(5px 5px 8px #474643);
+    
 }
 
 #language{
@@ -1076,7 +1076,7 @@ z-index: 9;
     position: fixed;
     top:2vw;
     left: 2vw;
-    width: 35%;
+    width: 38%;
     height: 18%;
     text-align: left;
     border: 2px solid black;
@@ -1086,7 +1086,7 @@ z-index: 9;
     padding-left: 2vw;
     padding-right: 2vw;
     padding-bottom: 2vw;
-    font-size: 5vw;
+    font-size: 4.5vw;
     line-height: 8vw;
     background-color: white;
     z-index: 9;
