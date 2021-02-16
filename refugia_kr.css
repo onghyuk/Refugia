@@ -1294,6 +1294,12 @@ audio{
     text-decoration: underline;
 }
 
+del{
+    text-decoration: none;
+    letter-spacing: -0.5px;
+    
+}
+
 .workpageaudio{
     position: relative;
     width: 100%;
