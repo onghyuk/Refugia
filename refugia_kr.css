@@ -203,21 +203,18 @@ a{
     top:0vh;
    
     width:65%;
-    height: auto;
+    height: 15vh;
     
     
     z-index: 9;
     
-    animation: point;
-    animation-delay: 2s;
-    animation-duration: 0.1s;
-    animation-fill-mode: both;
+    
 }
 
 #point2{
     position: absolute;
     left:18vw;
-    top:0vh;
+    top:15vh;
    
     width:65%;
     height: auto;
@@ -225,10 +222,7 @@ a{
     
     z-index: 9;
     
-    animation: point;
-    animation-delay: 3s;
-    animation-duration: 0.1s;
-    animation-fill-mode: both;
+    
 }
 
 .point{
@@ -245,63 +239,141 @@ a{
 
 #pt1{
     left:3%;
-    top:20%;
+    top:0%;
+    
+    animation: point;
+    animation-delay: 0.6s;
+    animation-duration: 0.1s;
+    animation-fill-mode: both;
 }
 #pt2{
     left:10%;
-    top:25%;
+    top:3%;
+    
+    animation: point;
+    animation-delay: 0.7s;
+    animation-duration: 0.1s;
+    animation-fill-mode: both;
 }
 #pt3{
-    left:20%;
-    top:24%;
+    left:15%;
+    top:5%;
+    
+    animation: point;
+    animation-delay: 0.5s;
+    animation-duration: 0.1s;
+    animation-fill-mode: both;
 }
 #pt4{
-    left:28%;
-    top:22%;
+    left:24%;
+    top:0%;
+    
+    animation: point;
+    animation-delay: 0.7s;
+    animation-duration: 0.1s;
+    animation-fill-mode: both;
 }
 #pt5{
-    left: 35%;
-    top: 25%;
+    left: 26%;
+    top:2%;
+    
+    animation: point;
+    animation-delay: 0.9s;
+    animation-duration: 0.1s;
+    animation-fill-mode: both;
 }
 #pt6{
-    left: 48%;
-    top: 27%;
+    left: 40%;
+    top: 2%;
+    
+    animation: point;
+    animation-delay: 1s;
+    animation-duration: 0.1s;
+    animation-fill-mode: both;
 }
 #pt7{
     left: 58%;
-    top: 23%;
+    top: 3%;
+    
+    animation: point;
+    animation-delay: 0.5s;
+    animation-duration: 0.1s;
+    animation-fill-mode: both;
 }
 #pt8{
     left: 68%;
-    top:26%;
+    top:8%;
+    
+    animation: point;
+    animation-delay: 0.9s;
+    animation-duration: 0.1s;
+    animation-fill-mode: both;
 }
 #pt9{
     left: 76%;
-    top:20%;
+    top:15%;
+    
+    animation: point;
+    animation-delay: 0.8s;
+    animation-duration: 0.1s;
+    animation-fill-mode: both;
 }
 #pt10{
     left: 86%;
-    top:22%;
+    top:2%;
+    
+    animation: point;
+    animation-delay: 1.2s;
+    animation-duration: 0.1s;
+    animation-fill-mode: both;
 }
 #pt11{
     left:88%;
-    top:25%;
+    top:5%;
+    
+    animation: point;
+    animation-delay: 1.2s;
+    animation-duration: 0.1s;
+    animation-fill-mode: both;
 }
+
 #pt12{
     left:99%;
-    top:26%;
+    top:12%;
+    
+     animation: point;
+    animation-delay: 1.4s;
+    animation-duration: 0.1s;
+    animation-fill-mode: both;
 }
 #pt13{
-    left:1%;
-    top:43%;
+    left:-4%;
+    top:22%;
+    
+    animation: point;
+    animation-delay: 0.7s;
+    animation-duration: 0.1s;
+    animation-fill-mode: both;
 }
+
 #pt14{
     left:14%;
-    top:44%; 
+    top:33%; 
+    
+    animation: point;
+    animation-delay: 0.7s;
+    animation-duration: 0.1s;
+    animation-fill-mode: both;
 }
+
 #pt15{
     left: 17%;
     top:41%;
+    
+    animation: point;
+    animation-delay: 0.7s;
+    animation-duration: 0.1s;
+    animation-fill-mode: both;
 }
 #pt16{
     left:30%;
@@ -456,10 +528,19 @@ z-index: 9;
    
 }
 
+#sponsor{
+    position: relative;
+    padding-left: 15vw;
+    margin-top: 5vw;
+
+}
+
 #sns{
     position: relative;
+    padding-left: 33vw;
     top:-5vw;
-    margin-bottom: -4.5vw;
+    padding-bottom:   -4.5vw;
+    padding-top:  5vw;
 }
 
 
@@ -499,7 +580,7 @@ z-index: 9;
 }
 
 .gameobject{
-    width: 43%;
+    width: 60%;
     
 }
 
@@ -516,11 +597,12 @@ z-index: 9;
 
 .companyobject{
     width: 30%;
+    
 }
 
 .musroomobject{
     width: 30%;
-    display: none;
+    
 }
 
 
@@ -528,8 +610,8 @@ z-index: 9;
 
 #ob1{
     position: absolute;
-    left:-3vw;
-    top:0vh;
+    left:-18vw;
+    top:-10vh;
     
     animation: point;
     animation-duration: 0.1s;
@@ -539,8 +621,8 @@ z-index: 9;
 
 #ob2{
     position: absolute;
-    left: 20vw;
-    top:5vh;
+    left:2vw;
+    top:-5vh;
     
     animation: point;
     animation-duration: 0.1s;
@@ -550,7 +632,7 @@ z-index: 9;
 
 #ob3{
     position: absolute;
-    left: 0vw;
+    left: -5vw;
     top:40vh;
     
     animation: point;
@@ -562,7 +644,7 @@ z-index: 9;
 #ob4{
     position: absolute;
     left: 25vw;
-    top:30vh;
+    top:-5vh;
     
     animation: point;
     animation-duration: 0.1s;
@@ -686,8 +768,8 @@ z-index: 9;
 #ob15{
     width: 45%;
     position: absolute;
-    left: 55vw;
-    top:28vh;
+    left: 12vw;
+    top:32vh;
     
     animation: point;
     animation-duration: 0.1s;
@@ -697,12 +779,12 @@ z-index: 9;
 
 #ob16{
     position: absolute;
-    left: 10vw;
+    left: 5vw;
     top:30vh;
     
     animation: point;
     animation-duration: 0.1s;
-    animation-delay: 0.2s;
+    animation-delay: 2.1s;
     animation-fill-mode: both;
 }
 
@@ -713,7 +795,7 @@ z-index: 9;
     
     animation: point;
     animation-duration: 0.1s;
-    animation-delay: 0.1s;
+    animation-delay: 2.5s;
     animation-fill-mode: both;
 }
 
@@ -726,20 +808,20 @@ z-index: 9;
     
     animation: point;
     animation-duration: 0.1s;
-    animation-delay: 0.3s;
+    animation-delay: 2.3s;
     animation-fill-mode: both;
 }
 
 #ob19{
     position: absolute;
-    left: 17vw;
+    left: 18vw;
     top:5vh;
     
     transform: rotate(180deg);
     
     animation: point;
     animation-duration: 0.1s;
-    animation-delay: 0.4s;
+    animation-delay: 2.6s;
     animation-fill-mode: both;
 }
 
@@ -751,13 +833,13 @@ z-index: 9;
     transform: rotate(180deg);
     animation: point;
     animation-duration: 0.1s;
-    animation-delay: 0.5s;
+    animation-delay: 2.8s;
     animation-fill-mode: both;
 }
 
 #ob21{
     position: absolute;
-    left: 2vw;
+    left: -8vw;
     top:73vh;
     
     transform: rotate(180deg);
@@ -769,7 +851,7 @@ z-index: 9;
 
 #ob22{
     position: absolute;
-    left:2vw;
+    left:-10vw;
     top:53vh;
     
     animation: point;
@@ -792,8 +874,8 @@ z-index: 9;
 
 #ob24{
     position: absolute;
-    left: 0vw;
-    top:45vh;
+    left: -7vw;
+    top:23vh;
     
     animation: point;
     animation-duration: 0.1s;
@@ -848,10 +930,10 @@ z-index: 9;
 
 #ob29{
     position: absolute;
-    left:10vw;
+    left:5vw;
     top:60vh;
     
-    width: 44%;
+    width: 47%;
     animation: point;
     animation-duration: 0.1s;
     animation-delay: 3.5s;
@@ -911,7 +993,7 @@ z-index: 9;
     
     animation: point;
     animation-duration: 0.1s;
-    animation-delay: 0.6s;
+    animation-delay: 3s;
     animation-fill-mode: both;
 }
 
@@ -923,7 +1005,7 @@ z-index: 9;
     
     animation: point;
     animation-duration: 0.1s;
-    animation-delay: 0.7s;
+    animation-delay: 3.2s;
     animation-fill-mode: both;
 }
 
@@ -935,7 +1017,7 @@ z-index: 9;
     
     animation: point;
     animation-duration: 0.1s;
-    animation-delay: 0.8s;
+    animation-delay: 3.4s;
     animation-fill-mode: both;
 }
 
@@ -1159,7 +1241,7 @@ audio{
 }
 
 .LOOP{
-    font-size: 6vw;
+    
     font-family: refugia;
     padding-left: 3px;
     padding-right: 3px;
@@ -1168,7 +1250,9 @@ audio{
 }
 
 .tbs{
-    font-size: 6vw;
+    position: relative;
+    top:1vw;
+    
     font-family: refugia;
     padding-left: 3px;
     padding-right: 3px;
@@ -1177,9 +1261,11 @@ audio{
 }
 
 .web{
-    font-size: 6vw;
+    position: relative;
+    top:0.5vw;
+    
     font-family: refugia;
-    padding-left: 3px;
+    padding-left: 2px;
     padding-right: 3px;
     
 
@@ -1198,7 +1284,7 @@ audio{
     width: 100%;
     height: auto;
     
-    margin-top: 4vw;
+    margin-top: 0vw;
     margin-bottom: 3vw;
     
     z-index: 8;
