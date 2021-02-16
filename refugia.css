@@ -1006,7 +1006,7 @@ z-index: 9;
     padding-left: 2vw;
     padding-right: 2vw;
     padding-bottom: 2vw;
-    font-size: 4.5vw;
+    font-size: 4vw;
     line-height: 6vw;
     background-color: white;
     z-index: 9;
@@ -1014,35 +1014,13 @@ z-index: 9;
     
 }
 
-#nvER{
-    line-height: 5vw;
-    margin-top: 2vw;
-    margin-bottom: 2vw;
-}
 
-#nvYJL{
-    line-height: 5vw;
-    margin-top: 2vw;
-    margin-bottom: 2vw;
-}
 
 #nvCK{
-    line-height: 5vw;
-    margin-top: 2vw;
-    margin-bottom: 2vw;
+    letter-spacing: -1px;
 }
 
-#nvSF{
-    line-height: 5vw;
-    margin-top: 2vw;
-    margin-bottom: 2vw;
-}
 
-#nvYAH{
-    line-height: 5vw;
-    margin-top: 2vw;
-    margin-bottom: 2vw;
-}
 
 
 
