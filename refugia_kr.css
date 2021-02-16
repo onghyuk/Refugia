@@ -1290,6 +1290,10 @@ audio{
     z-index: 8;
 }
 
+.biounder{
+    text-decoration: underline;
+}
+
 .workpageaudio{
     position: relative;
     width: 100%;
