@@ -19,15 +19,18 @@
 
 <div id=wrapper class="mainwrapper">
    <div id=content class="container">
+       <a href="refugia_en.html" target="_parent"><div id="language"><p>EN</p></div></a>
+       
         <div id=header>
         <a href="https://booking.naver.com/booking/12/bizes/404506/items/3786839"><div id="book">
         <img src="book_kr.png" target="_blank" style="width: 100%"> 
         </div></a>  
-        <a href="refugia_en.html" target="_parent">
-            <div id="language"><img src="EN.png" style="width: 100%"></div></a>
+        
             
-            <a href="https://www.instagram.com/alternativespaceloop/" target="_blank"><div id="insta"><img src="insta.png" style="width: 30%;"></div></a>
-         
+            
+            <!--
+            
+             -->
            
          
         <!--
@@ -78,9 +81,8 @@
              
              
         <div id="info">
-        <img src="logo_kr.png" id="minilogo">
-        <img src="point1.png" id="point">
-        <img src="point2.png" id="point2">    
+        <img src="refugiaK2.gif" id="minilogo" style="width: 100%;">
+           
             
             
             <!--
@@ -132,23 +134,36 @@
             <p>아티스트: <ins><a href="#ER">엘리안느 라디그</a>, <a href="#TL">타니아 레온</a>, <a href="#YEM">민예은</a>, <a href="#SL">이슬기</a>, <a href="#YJL">이영주</a>, <a href="#JIA">장지아</a>, <a href="#JM">전미래</a>, <a href="#EC">조은지</a>, <a href="#CK">크리스티나 쿠비쉬</a>, <a href="#SF">시바 폐샤레키</a>, <a href="#YAH">함양아</a>       </ins> </p>
         <p>큐레이터: 양지윤</p> 
         
-        <p>후원: 한국문화예술위원회, 주한독일문화원, 주한프랑스대사관</p>     
-          
+        <p>후원: 한국문화예술위원회, 주한독일문화원, 주한프랑스대사관 문화과</p>     
+        <div id="sponser">
+        <img src="01.png" style="width: 17%">
+        <img src="02.png" style="width: 17%"> 
+        <img src="03.png" style="width: 17%">
+        <img src="04.png" style="width: 17%">     
+        </div>
+        <div id="sns">
+            <a href="https://www.instagram.com/alternativespaceLOOP/" target="_blank"><img src="insta.png" style="width: 6%;"></a>
+            
+            <a href="https://www.youtube.com/channel/UCWqQrGBmONbIKXKpoTfW0wA" target="_blank">
+            <img src="youtube.png" style="width: 7%;" id=youtube>
+            </a>
+            
+            <a href="https://www.facebook.com/alternativespaceloop" target="_blank">
+            <img src="facebook-logo-black-2019.png" style="width: 7%;" id=youtube>
+            </a>
+            
+            <a href="http://altspaceloop.com/" target="_blank">
+            <img src="LOOP-LOGO.png" style="width: 15%; position:relative; top:15px; left: -5px;">
+            </a>
+            
+        </div>  
         </div>    
         </div>
         
         </div>
         <div id=game  onclick="play()">
+           <div id="out" onclick="out()"><img src="out.png" style="width: 100%"></div>
            
-           <img src="src/mushroom1.png" class="musroomobject" id="ob16" onclick="mshide(this); ms1()">
-              
-              <img src="src/mushroom2.png" class="musroomobject" id="ob17" onclick="mshide(this)">
-              
-              <img src="src/mushroom5.png" class="musroomobject" id="ob18" onclick="mshide(this); ms2()">
-              
-              <img src="src/mushroom6.png" class="musroomobject" id="ob19" onclick="mshide(this)">
-              
-              <img src="src/mushroom7.png" class="musroomobject" id="ob20" onclick="mshide(this); ms3()">
             
              <img src="src/0240386-1.png" class="companyobject" id="ob12"
              onclick="game2()">
@@ -207,7 +222,7 @@
               
               <img src="src/shutterstock_15455178777.png" class="gameobject" id="ob26" onclick="hide(this)">
               
-              <img src="src/61o5kDaJEvL._AC_SL1500_.png" class="companyobject" id="ob11" onclick="game3()">
+              <img src="src/61o5kDaJEvL._AC_SL1500_.png" class="companyobject" id="ob11" onclick="game8()">
               
               <img src="src/shutterstock_472148893.png" class="gameobject" id="ob27" onclick="hide(this)">
               
@@ -217,13 +232,7 @@
               
               
               
-               <img src="src/shutterstock_15049134236.png" class="bear" id="ob31" onclick="bear1()">
                
-               <img src="src/shutterstock_15049134232.png" class="bear" id="ob32" onclick="bear2()">
-               
-               <img src="src/shutterstock_1504913423.png" class="bear" id="ob33"onclick="bear3()">
-               
-               <img src="src/shutterstock_15049134234.png" class="bear" id="ob34"onclick="bear4()">
               
               
               
@@ -235,18 +244,41 @@
              
              <img src="src/US-Roundup-Extended-Control-Weed-And-Grass-Killer-Plus-Weed-Preventer-Ii-II-Main-5101910-Xxl.png.Duplicate2.png" class="companyobject" id="ob14" onclick="game()">
              
-             
+             <img src="src/mushroom1.png" class="musroomobject" id="ob16" onclick="mshide(this); ms()">
+              
+              <img src="src/mushroom2.png" class="musroomobject" id="ob17" onclick="mshide(this)">
+              
+              <img src="src/mushroom5.png" class="musroomobject" id="ob18" onclick="mshide(this); ms()">
+              
+              <img src="src/mushroom6.png" class="musroomobject" id="ob19" onclick="mshide(this)">
+              
+              <img src="src/mushroom7.png" class="musroomobject" id="ob20" onclick="mshide(this); ms()">
+              
+              <img src="src/mushroom3.png" class="musroomobject" id="ob35" onclick="mshide(this); ms()">
+              
+               <img src="src/mushroom4.png" class="musroomobject" id="ob36" onclick="mshide(this); ms()">
+               
+               <img src="src/mushroom8.png" class="musroomobject" id="ob37" onclick="mshide(this); ms()">
+               
+            <img src="src/shutterstock_15049134236.png" class="bear" id="ob31" onclick="bear1()">
+               
+               <img src="src/shutterstock_15049134232.png" class="bear" id="ob32" onclick="bear2()">
+               
+               <img src="src/shutterstock_1504913423.png" class="bear" id="ob33"onclick="bear3()">
+               
+               <img src="src/shutterstock_15049134234.png" class="bear" id="ob34"onclick="bear4()">
             
              
         </div>
          <div id="gameup" onclick="upbutton(); gameup();">
-         <img src="game_kr.png" style="width: 100%;">
+         <img src="game.png" style="width: 100%;">
          </div>
              
         <div id="works">
             
             <div id="artistlist">
-             
+                
+             <div id="top" onclick="topFunction()"><p>레퓨지아</p></div>
                 <a href="#ER"><p id="nvER">엘리안느 라디그</p></a>
                 <a href="#TL" id="nvTL"><p>타니아 레온</p></a> 
                 <a href="#YEM" id="nvYEM"><p>민예은</p></a>
@@ -257,7 +289,8 @@
                 <a href="#EC" id="nvEC"><p>조은지</p></a>
                 <a href="#CK" id="nvCK"><p>크리스티나 쿠비쉬</p></a> 
                 <a href="#SF" id="nvSF"><p>시바 페샤레키</p></a> 
-                <a href="#YAH" id="nvYAH"><p>함양아</p></a>          
+                <a href="#YAH" id="nvYAH"><p>함양아</p></a>    
+                    
             </div>
             
             
@@ -267,14 +300,16 @@
             
             <div class="artistinfo">
             <p>엘리안느 라디그 (1932년생, 파리)</p>
-            <p><ins class="loof">LOOF</ins><ins class="tbs">TBS</ins><ins class="web">WEB</ins></p>
-            <p><ins class="subject">바이오제네시스,</ins> 1973, 사운드, 21분 
+            <p><ins class="LOOP">LOOP</ins><ins class="tbs">,TBS</ins><ins class="web">,WEB</ins></p>
+            <p><ins class="subject" style="letter-spacing: -1px;">바이오제네시스,</ins> 1996, 사운드, 21분 
             </p>
             
             </div>
             
             <div class="workpageaudio">
-            
+            <audio controls>
+            <source src="sound/Eliane%20Radigue_Biogenesis.mp3" type="audio/mp3">  
+            </audio>
             </div>
             
             
@@ -287,14 +322,21 @@
             상반되는 개념으로, 살아 있는 생물은 반드시 살아있는 것으로부터 나온다는 이론이다.
             </ins></p>
             <p><ins class="text">
-            라디그는 1970년대 티베트 불교로 개종하여 파오 린포체Pawo Rinpoche 구루와 함께 3년간
+            라디그는 1970년대 티베트 불교로 개종하여 파오 린포체 Pawo Rinpoche 구루와 함께 3년간
             수행한다. 라디그는 ARP 신디사이저가 음을 명상하듯 해석하는 방식에 많은 잠재력을 가지고 있음을
             발견한다. 주파수와 모듈레이션 같은 매개 변수를 최대 40개까지 조금씩 변경하여 사운드를
             제작한다. 구체음악의 스승이었던 남성 작곡가 피에르 쉐페르와 피에르 앙리의 12음 기법과는
             상반되는, 라디그 자신만의 작곡 방식이다. 라디그는 말한다. “내 작곡은 언제나 극적 변화를
             피해왔으며, 이는 여전히 내 작곡의 규칙이다. 모든 음은 매우 느리게 변화한다. 음이 변화하고
             있다는 사실조차 알아채지 못할 정도로 느리게 전개된다.”
-            </ins></p>    
+            </ins></p> 
+            
+            <p><ins class="text">
+            제작: 엘리안느 라디그, 파리, 1973 
+            </ins></p> 
+            <p><ins class="text">
+            디지털 마스터링: Luke Martinez, CIRM 
+            </ins></p>  
             </div>
             
             <div class="bio">
@@ -325,7 +367,7 @@
             <div class="artistinfo">
             <p>타니아 레온(1943년생, 하바나)</p>
             
-            <p><ins class="loof">LOOF</ins><ins class="tbs">TBS</ins><ins class="web">WEB</ins></p>
+            <p><ins class="LOOP">LOOP</ins><ins class="tbs">,TBS</ins><ins class="web">,WEB</ins></p>
             
             <p><ins class="subject">수평선,</ins> 2008년, 사운드, 8분 56초
             </p>
@@ -388,7 +430,7 @@ Fellowship(2018)을 수상했다. 타니아 레온은 현재 뉴욕시립대학�
             <div class="artistinfo">
             <p>민예은 (1986년생)</p>
             
-            <p><ins class="loof">LOOF</ins><ins class="tbs">TBS</ins><ins class="web">WEB</ins></p>
+            <p><ins class="LOOP">LOOP</ins><ins class="tbs">,TBS</ins><ins class="web">,WEB</ins></p>
             
             <p><ins class="subject">이게 맞나,</ins> 2021년, 비디오+사운드, 3분 14초
            </p>
@@ -449,7 +491,7 @@ des liens, Cabane Georgina, 마르세유, 2017&gt;, &lt;있다, 잇다, 있다, 
             
             <div class="artistinfo">
             <p>이슬기 (1972년생)</p>
-            <p><ins class="loof">LOOF</ins></p>
+            <p><ins class="LOOP">LOOP</ins></p>
             <p><ins class="subject">옹기종기,</ins> 2021년, 퍼포먼스</p>
             </div>
             
@@ -463,7 +505,7 @@ des liens, Cabane Georgina, 마르세유, 2017&gt;, &lt;있다, 잇다, 있다, 
             </div>
             
             <div class="artistinfo">
-            <p><ins class="loof">LOOF</ins><ins class="tbs">TBS</ins><ins class="web">WEB</ins></p>
+            <p><ins class="LOOP">LOOP</ins><ins class="tbs">,TBS</ins><ins class="web">,WEB</ins></p>
             
             <p><ins class="subject">여인의 섬,</ins> 비디오, 13분</p>
             </div>
@@ -523,7 +565,7 @@ des liens, Cabane Georgina, 마르세유, 2017&gt;, &lt;있다, 잇다, 있다, 
             <img src="YGL.png" class="imgname">
             <div class="artistinfo">
             <p>이영주 (1987년생)</p>
-            <p><ins class="web">WEB</ins></p>
+            <p><ins class="web">,WEB</ins></p>
             <p><ins class="subject">표범의 눈,</ins> 2021년, 애니메이션, 3분 40초
             </p>
             </div>
@@ -558,7 +600,7 @@ des liens, Cabane Georgina, 마르세유, 2017&gt;, &lt;있다, 잇다, 있다, 
             </div>
             
             <div class="artistinfo">
-            <p><ins class="loof">LOOF</ins><ins class="web">WEB</ins></p>
+            <p><ins class="LOOP">LOOP</ins><ins class="web">,WEB</ins></p>
             <p><ins class="subject">검은 눈,</ins> 2019년, 애니메이션, 11분 10초</p>
             </div>
             
@@ -586,7 +628,7 @@ Atoll에서 일어났다. 이 곳에서 멀리 떨어진 곳에 거주하던 원
             </div>
             
             <div class="artistinfo">
-            <p><ins class="web">WEB</ins></p>
+            <p><ins class="web">,WEB</ins></p>
             <p><ins class="subject">매직 킹덤,</ins> 2020, 웹 기반 게임</p>
             </div>
             
@@ -611,7 +653,7 @@ Atoll에서 일어났다. 이 곳에서 멀리 떨어진 곳에 거주하던 원
             </div>
             
             <div class="artistinfo">
-            <p><ins class="tbs">TBS</ins></p>
+            <p><ins class="tbs">,TBS</ins></p>
             <p><ins class="subject">스시우먼의 노래,</ins> 2016년, 애니메이션, 4분 47초
             </p>
             </div>
@@ -657,7 +699,7 @@ Atoll에서 일어났다. 이 곳에서 멀리 떨어진 곳에 거주하던 원
             <img src="jia.png" class="imgname">
             <div class="artistinfo">
             <p>장지아 (1973년생)</p>
-            <p><ins class="loof">LOOF</ins></p>
+            <p><ins class="LOOP">LOOP</ins></p>
             <p><ins class="subject">스위치,</ins> 2014년, 물소가죽에 드로잉, 266X315cm</p>
             </div>
             
@@ -678,7 +720,7 @@ Atoll에서 일어났다. 이 곳에서 멀리 떨어진 곳에 거주하던 원
             </div>
             
             <div class="artistinfo">
-            <p><ins class="loof">LOOF</ins></p>
+            <p><ins class="LOOP">LOOP</ins></p>
             <p><ins class="subject">붉은 드로잉-프로젝트,</ins> 2020~2021년, 오브제, 각 15X21cm
             </p>
             </div>
@@ -697,7 +739,7 @@ Atoll에서 일어났다. 이 곳에서 멀리 떨어진 곳에 거주하던 원
             </div>
             
             <div class="artistinfo">
-            <p><ins class="tbs">TBS</ins><ins class="web">WEB</ins></p>
+            <p><ins class="tbs">,TBS</ins><ins class="web">,WEB</ins></p>
             <p><ins class="subject">수집된 기억들,</ins>  2021년, 사운드, 2분 30초</p>
             </div>
             
@@ -745,7 +787,7 @@ Atoll에서 일어났다. 이 곳에서 멀리 떨어진 곳에 거주하던 원
             <img src="MRJ.png" class="imgname">
             <div class="artistinfo">
             <p>전미래 (1981년생)</p>
-            <p><ins class="loof">LOOF</ins></p>
+            <p><ins class="LOOP">LOOP</ins></p>
             <p><ins class="subject">팝 !,</ins> 2021년, 설치 작업, 가변크기, 오브제(원형 코르크, 원형거울 여러 개)
             </p>
             </div>
@@ -784,7 +826,7 @@ Atoll에서 일어났다. 이 곳에서 멀리 떨어진 곳에 거주하던 원
             </div>                             
             
             <div class="artistinfo"> 
-            <p><ins class="tbs">TBS</ins><ins class="web">WEB</ins></p>
+            <p><ins class="tbs">,TBS</ins><ins class="web">,WEB</ins></p>
             <p><ins class="subject">어떤 부활,</ins> 2021, 사운드, 3분 30초
             </p>
             </div>
@@ -819,7 +861,7 @@ Atoll에서 일어났다. 이 곳에서 멀리 떨어진 곳에 거주하던 원
             <img src="EJ.png" class="imgname">
             <div class="artistinfo">
             <p>조은지 (1973년생)</p>
-            <p><ins class="loof">LOOF</ins><ins class="web">WEB</ins></p>
+            <p><ins class="LOOP">LOOP</ins><ins class="web">,WEB</ins></p>
             <p><ins class="subject">나의 쌍동이 문어Octo-8을 위한 노래,</ins> 2020년, 비디오, 10분 15초
 </p>
             </div>
@@ -851,7 +893,7 @@ Atoll에서 일어났다. 이 곳에서 멀리 떨어진 곳에 거주하던 원
             </div>
             
             <div class="artistinfo">
-            <p><ins class="tbs">TBS</ins><ins class="web">WEB</ins></p>
+            <p><ins class="tbs">,TBS</ins><ins class="web">,WEB</ins></p>
 
             <p><ins class="subject">옥토퍼스,</ins> 2021년, 사운드, 4분 31초
             </p>
@@ -865,7 +907,7 @@ Atoll에서 일어났다. 이 곳에서 멀리 떨어진 곳에 거주하던 원
             
             <div class="statement">
             <p> <ins class="text">조은지의 사운드 작업 &lt;옥토퍼스&gt; 는 두 명의 인도네시아 사운드 아티스트 DJ Danger Dope와 MC
-Eloops의 협업으로 제작되었다. &lt;옥토퍼스&gt;는 작가의 영상 작업 &lt;나의 쌍동이 문어 Octo-8을 위한
+ELOOPs의 협업으로 제작되었다. &lt;옥토퍼스&gt;는 작가의 영상 작업 &lt;나의 쌍동이 문어 Octo-8을 위한
 노래&gt; (2020)의 수중에서 등장하는 노래를 비트를 기반으로 한 사운드 작업으로 제작되었다.
 </ins></p>
            <p> <ins class="text">기획 및 아이디어 - 조은지
@@ -874,7 +916,7 @@ Eloops의 협업으로 제작되었다. &lt;옥토퍼스&gt;는 작가의 영상
 </ins></p>
            <p> <ins class="text">음향 기록- Tomo &amp; shutdub
 </ins></p>
-           <p> <ins class="text">수중 노래 - Eloops
+           <p> <ins class="text">수중 노래 - ELOOPs
 </ins></p> 
            <p> <ins class="text">대금 소리- Santo Klingon
 </ins></p>
@@ -905,7 +947,7 @@ octopus)와의 관계를 통해서 인간이 중심이 된 이데올로기를 �
             
             <div class="artistinfo">
             <p>크리스티나 쿠비쉬 (1948년생, 브레멘)</p>
-            <p><ins class="loof">LOOF</ins><ins class="tbs">TBS</ins><ins class="web">WEB</ins></p>
+            <p><ins class="LOOP">LOOP</ins><ins class="tbs">,TBS</ins><ins class="web">,WEB</ins></p>
 
             <p><ins class="subject">테슬라의 꿈,</ins> 2014, 사운드, 22분 56초</p>
             </div>
@@ -1016,9 +1058,9 @@ composer centre, 스웨덴
             
             <div class="artistinfo">
             <p>시바 페샤레키 (1987년생, 런던)</p>
-            <p><ins class="loof">LOOF</ins><ins class="tbs">TBS</ins><ins class="web">WEB</ins></p>
+            <p><ins class="LOOP">LOOP</ins><ins class="tbs">,TBS</ins><ins class="web">,WEB</ins></p>
 
-            <p><ins class="subject">증기,</ins>   2020, 사운드, 4분 37초 </p>
+            <p><ins class="subject">증기,</ins>   2020년, 사운드, 4분 37초 </p>
             </div>
             
             <div class="workpageaudio">
@@ -1064,7 +1106,7 @@ Festival, 런던, 2010&gt;, &lt;영국 국립 청소년 오케스트라&gt; 레�
             <img src="HYA.png" class="imgname">
             <div class="artistinfo">
             <p>함양아 (1968년생)</p>
-            <p><ins class="loof">LOOF</ins><ins class="tbs">TBS</ins><ins class="web">WEB</ins></p>
+            <p><ins class="LOOP">LOOP</ins><ins class="tbs">,TBS</ins><ins class="web">,WEB</ins></p>
 
             <p><ins class="subject">텅 빈 세계,</ins> 2020년, 비디오+사운드, 3분
 
@@ -1072,7 +1114,7 @@ Festival, 런던, 2010&gt;, &lt;영국 국립 청소년 오케스트라&gt; 레�
             </div>
             
             <div class="workpage">
-            <iframe width="100%" height="250px" src="https://www.youtube-nocookie.com/embed/5MVDHgdAb-o?rel=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="video"></iframe>
+            <iframe width="100%" height="250px" src="https://www.youtube-nocookie.com/embed/TELIRF808FU?rel=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="video"></iframe>
             </div>
             
             <div class="statement">
@@ -1118,7 +1160,7 @@ Festival, 런던, 2010&gt;, &lt;영국 국립 청소년 오케스트라&gt; 레�
             
             
          <div id="credit">
-             <div id="top" onclick="topFunction()"><img src="top_kr.png" style="width: 100%"></div>
+             
              <p>크레딧</p>
              <p>큐레이토리얼 팀</p>
              <p>큐레이터: 양지윤</p>
@@ -1387,11 +1429,11 @@ document.getElementById("ob1").style.filter = "hue-rotate(100deg)";
  document.getElementById("ob2").style.filter = "hue-rotate(80deg)";
  document.getElementById("ob3").style.filter = "hue-rotate(50deg)"; 
   document.getElementById("ob4").style.filter = "hue-rotate(40deg)"; 
- document.getElementById("ob16").style.display = "block"; 
+
     
 document.getElementById("ob21").style.filter = "hue-rotate(50deg)"; 
   document.getElementById("ob27").style.filter = "hue-rotate(40deg)"; 
- document.getElementById("ob16").style.display = "block";     
+     
     
  document.getElementById("ob14").style.filter= "blur(5px)";     
 } 
@@ -1402,7 +1444,7 @@ function game2() {
   document.getElementById("ob7").style.filter = "hue-rotate(40deg)"; 
 document.getElementById("ob22").style.filter = "hue-rotate(50deg)"; 
   document.getElementById("ob24").style.filter = "hue-rotate(40deg)";
-   document.getElementById("ob18").style.display = "block"; 
+   
     document.getElementById("ob12").style.filter= "blur(5px)";  
 }
     
@@ -1410,15 +1452,14 @@ function game3() {
  document.getElementById("ob8").style.filter = "hue-rotate(80deg)";
  document.getElementById("ob9").style.filter = "hue-rotate(50deg)"; 
   document.getElementById("ob10").style.filter = "hue-rotate(40deg)";
- document.getElementById("ob17").style.display = "block";  
+ 
 document.getElementById("ob11").style.filter= "blur(8px)";        
 }     
 
 function game4() {
  document.getElementById("ob8").style.filter = "hue-rotate(80deg)";
  document.getElementById("ob9").style.filter = "hue-rotate(50deg)"; 
- document.getElementById("ob20").style.display = "block";
- document.getElementById("ob19").style.display = "block";  
+ 
 document.getElementById("ob13").style.filter= "blur(8px)";        
 }      
     
@@ -1450,7 +1491,22 @@ document.getElementById("ob25").style.filter = "hue-rotate(100deg)";
  document.getElementById("ob16").style.filter = "hue-rotate(150deg)"; 
     
  document.getElementById("ob30").style.filter= "blur(5px)";     
-}         
+} 
+    
+function game8() {
+document.getElementById("ob16").style.display = "block";
+    document.getElementById("ob17").style.display = "block";
+    document.getElementById("ob18").style.display = "block";
+    document.getElementById("ob19").style.display = "block";
+    document.getElementById("ob20").style.display = "block";
+    
+    document.getElementById("ob35").style.display = "block";
+    
+    document.getElementById("ob36").style.display = "block";
+    
+    document.getElementById("ob37").style.display = "block";
+    
+}       
     
 function bear1() {
     document.getElementById("ob31").style.display = "none"
@@ -1468,42 +1524,106 @@ function bear1() {
 }
     
      function bear4() {
-    document.getElementById("ob34").style.display = "none"
-         document.getElementById("ob16").style.display = "none"
-         document.getElementById("ob17").style.display = "none"
-         document.getElementById("ob18").style.display = "none"
+    document.getElementById("ob1").style.display = "none"
+         document.getElementById("ob2").style.display = "none"
+         document.getElementById("ob3").style.display = "none"
+         document.getElementById("ob4").style.display = "none"
          
-         document.getElementById("ob19").style.display = "none"
+         document.getElementById("ob5").style.display = "none"
+         
+         document.getElementById("ob6").style.display = "none";
+         
+         document.getElementById("ob7").style.display = "none";
+         
+         document.getElementById("ob8").style.display = "none";
+         
+         document.getElementById("ob9").style.display = "none";
+         
+         document.getElementById("ob10").style.display = "none";
+         
+         document.getElementById("ob11").style.display = "none";
+         
+         document.getElementById("ob12").style.display = "none";
+         
+         document.getElementById("ob13").style.display = "none";
+         
+         document.getElementById("ob14").style.display = "none";
+         
+         document.getElementById("ob15").style.display = "none";
+         
+         document.getElementById("ob16").style.display = "none";
+         
+         document.getElementById("ob17").style.display = "none";
+         
+         document.getElementById("ob18").style.display = "none";
+         
+         document.getElementById("ob19").style.display = "none";
          
          document.getElementById("ob20").style.display = "none";
+         
+         document.getElementById("ob21").style.display = "none";
+         
+         document.getElementById("ob22").style.display = "none";
+         
+         document.getElementById("ob23").style.display = "none";
+         
+         document.getElementById("ob24").style.display = "none";
+         
+         document.getElementById("ob25").style.display = "none";
+         
+         document.getElementById("ob26").style.display = "none";
+         
+         document.getElementById("ob27").style.display = "none";
+         
+         document.getElementById("ob28").style.display = "none";
+         
+         document.getElementById("ob29").style.display = "none";
+         
+         document.getElementById("ob30").style.display = "none";
+         
+         document.getElementById("ob35").style.display = "none";
+         
+         document.getElementById("ob36").style.display = "none";
+         
+         document.getElementById("ob37").style.display = "none";
+         
+         document.getElementById("ob34").style.display = "none";
+         
+         
+         
    
 }
     
-    function ms1() {
-    document.getElementById("ob15").style.display = "none"
-        
-    document.getElementById("ob30").style.display = "none";
-        
-        document.getElementById("ob31").style.display = "block";  
+    function ms() {
    
+        
+    document.getElementById("ob31").style.display = "block";  
+   document.getElementById("ob16").style.width = "50%";
+    document.getElementById("ob17").style.width = "50%";
+    document.getElementById("ob18").style.width = "50%";
+    document.getElementById("ob19").style.width = "50%";
+    document.getElementById("ob20").style.width = "50%";
+    
+    document.getElementById("ob35").style.width = "50%";
+    
+    document.getElementById("ob36").style.width = "50%";
+    
+    document.getElementById("ob37").style.width = "50%";
+        
+    document.getElementById("ob16").style.filter = "hue-rotate(220deg)"
+    document.getElementById("ob17").style.filter = "hue-rotate(200deg)"
+    document.getElementById("ob18").style.filter = "hue-rotate(180deg)"
+    document.getElementById("ob19").style.filter = "hue-rotate(150deg)"
+    document.getElementById("ob20").style.filter = "hue-rotate(120deg)"
+    
+    document.getElementById("ob35").style.filter = "hue-rotate(200deg)"
+    
+    document.getElementById("ob36").style.filter = "hue-rotate(180deg)"
+    
+    document.getElementById("ob37").style.filter = "hue-rotate(250deg)"
 }
     
-    function ms2() {
-    document.getElementById("ob12").style.display = "none"
-        document.getElementById("ob13").style.display = "none"
-        
-         document.getElementById("ob11").style.display = "none";
-   
-}
-    
-    function ms3() {
-    document.getElementById("ob29").style.display = "none"
-        
-        document.getElementById("ob14").style.display = "none"
-        
-        
-   
-}
+
     
 function hide(x) {
   x.classList.toggle("gamevanish");
@@ -1515,7 +1635,11 @@ function mshide(x) {
     
 function blur(x) {
   x.classList.toggle("vanish");
-}       
+}      
+    
+function out() {
+    document.getElementById("game").style.display = "none";
+}    
     
 
 </script>
@@ -1523,12 +1647,16 @@ function blur(x) {
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
-  if (document.body.scrollTop > 160 || document.documentElement.scrollTop > 160) {
+  if (document.body.scrollTop > 180 || document.documentElement.scrollTop > 180) {
     document.getElementById("game").style.display = "none";
      document.getElementById("game").style.border = "none";
     document.getElementById("game").style.width = "96%";   
       
-     document.getElementById("gameup").style.display = "block";  
+     document.getElementById("gameup").style.display = "block"; 
+      
+      document.getElementById("out").style.display = "block"; 
+      
+    document.getElementById("book").style.left = "48vw";    
   } 
    else {
       
