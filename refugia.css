@@ -996,8 +996,8 @@ z-index: 9;
     position: fixed;
     top:2vw;
     left: 2vw;
-    width: 35%;
-    height: 18%;
+    width: 38%;
+    height: 33%;
     text-align: left;
     border: 2px solid black;
     overflow-y: scroll;
@@ -1006,10 +1006,11 @@ z-index: 9;
     padding-left: 2vw;
     padding-right: 2vw;
     padding-bottom: 2vw;
-    font-size: 5vw;
-    line-height: 8vw;
+    font-size: 4.5vw;
+    line-height: 6vw;
     background-color: white;
     z-index: 9;
+    
     
 }
 
