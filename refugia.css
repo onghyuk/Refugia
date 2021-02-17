@@ -161,8 +161,8 @@ ins{
     border: 2px solid black;
     background-color: white;
     
-    font-family: Noto Sans KR, sans-serif;
-    font-weight: 700;
+    font-family: sans-serif;
+    font-weight: 100;
     text-align: center;
     line-height: 9.5vw;
 }
@@ -959,11 +959,12 @@ z-index: 9;
 
 #ob38{
     position: absolute;
-    left:-5vw;
+    left:5vw;
     top:5vw;
-    width: 120%;
+    width: 90%;
     
     display: none;
+    z-index: 10;
     
 }
 
@@ -977,8 +978,8 @@ z-index: 9;
 
 #gameup{
   position: fixed;
-  bottom: 10vw;
-  right: 2.5vw;
+  bottom: 8vw;
+  right: 2.8vw;
   cursor: pointer;
     
   width: 15vw; 
