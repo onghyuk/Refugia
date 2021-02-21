@@ -1179,7 +1179,7 @@ z-index: 9;
     
 }
 
-#listscroll{
+.listscrollname{
     position: absolute;
     left: 22vw;
     top:2vw;
@@ -1187,6 +1187,10 @@ z-index: 9;
 }
 
 #nvER{
+    display: none;
+}
+
+#nvTL{
     display: none;
 }
 

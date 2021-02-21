@@ -361,7 +361,8 @@
                
                <p style="max-width: 30%;">아티스트</p>
                 <div id="listscroll">
-                <p class="listscrollname" id="nvER">엘리안느 라디그</p>   
+                <p class="listscrollname" id="nvER">엘리안느 라디그</p>
+                <p class="listscrollname" id="nvTL">타니아 레온</p>       
                     
                 </div>
                 <div id="open" onclick="onsite();closeDivshow()"><p>V</p></div>
@@ -369,7 +370,7 @@
                                         
                 <div id="list">
                 <a href="#ER" onclick="closeDiv();closeDivshow()"><p>엘리안느 라디그</p></a>
-                <a href="#TL" id="nvTL" onclick="closeDiv();closeDivshow()" ><p>타니아 레온</p></a> 
+                <a href="#TL"  onclick="closeDiv();closeDivshow()" ><p>타니아 레온</p></a> 
                 <a href="#YEM" id="nvYEM" onclick="closeDiv();closeDivshow()" ><p>민예은</p></a>
                 <a href="#SL" id="nvSL" onclick="closeDiv();closeDivshow()" ><p>이슬기</p></a> 
                 <a href="#YJL" id="nvYJL" onclick="closeDiv();closeDivshow()" ><p>이영주</p></a>
@@ -1439,7 +1440,7 @@ function fingerOver() {
   document.getElementById("nvER").style.display= "block";
 }
 
-    </script>
+</script>
     
             
 <script>   
@@ -1447,12 +1448,22 @@ document.getElementById("TL").addEventListener("mouseover", mouseOver);
 document.getElementById("TL").addEventListener("mouseout", mouseOut);
 
 function mouseOver() {
-  document.getElementById("nvTL").style.color= "#009A3E";
+  document.getElementById("nvTL").style.display= "block";
 }
 
 function mouseOut() {
-  document.getElementById("nvTL").style.color= "black";
+  document.getElementById("nvTL").style.display= "none";
 }
+</script>
+
+<script>
+document.getElementById("TL").addEventListener("touchmove", fingerOver);
+
+
+function fingerOver() {
+  document.getElementById("nvTL").style.display= "block";
+}
+
 </script>
 <script>   
 document.getElementById("YEM").addEventListener("mouseover", mouseOver);
