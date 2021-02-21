@@ -204,11 +204,11 @@
         <p style="padding-left: 2vw;
         text-decoration: underline;">전시 퀵 가이드 &#8595;</p></a>
         
-        <!--
+       
         <div id="schedule">
-        <img src="schedule_kr.png" style="width: 100%">
+        
         </div>
-        -->
+        
         
         <div id="sns">
             <a href="https://www.instagram.com/alternativespaceLOOP/" target="_blank"><img src="Instagram_AppIcon_Aug2017.png" style="width: 8%; margin-left: 3vw;"></a>
@@ -1432,16 +1432,13 @@ function mouseOut() {
     </script>
     
 <script>
-document.getElementById("ER").addEventListener("touchstart", fingerOver);
-document.getElementById("ER").addEventListener("touchend", fingerOut);
+document.getElementById("ER").addEventListener("touchmove", fingerOver);
+
 
 function fingerOver() {
   document.getElementById("nvER").style.display= "block";
 }
 
-function fingerOut() {
-  document.getElementById("nvER").style.display= "none";
-}
     </script>
     
             
