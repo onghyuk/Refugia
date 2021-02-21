@@ -55,6 +55,7 @@ body{
     width: 100%;
     height: 100%;
     z-index: 5;
+    
 }
 
 p{
@@ -538,6 +539,7 @@ z-index: 9;
     font-size: 4.5vw;
     line-height: 8vw;
     border-right: solid 1px black;
+    z-index: 8;
    
 }
 
@@ -1125,7 +1127,7 @@ z-index: 9;
     border: 2px solid black;
     overflow-y: hidden;
     overflow-x: hidden;
-    
+    display: none;
     
     padding-top: 2vw;
     padding-left: 2vw;
@@ -1134,7 +1136,7 @@ z-index: 9;
     font-size: 4.5vw;
     line-height: 8vw;
     background-color: white;
-    z-index: 9;
+    z-index: 7;
     
     
 }
@@ -1144,8 +1146,9 @@ z-index: 9;
 
 
 #list{
-    padding-left: 2vw;
+    padding-left: 20vw;
     font-weight: 500;
+    
 }
 
 #open{
@@ -1176,17 +1179,17 @@ z-index: 9;
     
 }
 
-#block{
+#listscroll{
     position: absolute;
-    left: 0px;
-    top:0px;
-    
-    width: 100vw;
-    height: 2vw;
-    background-color:white;
-    z-index: 7;
+    left: 22vw;
+    top:2vw;
     
 }
+
+#nvER{
+    display: none;
+}
+
 
 
 
@@ -1388,6 +1391,7 @@ audio{
 
 .biounder{
     text-decoration: underline;
+    line-height: 11vw;
     
 }
 
