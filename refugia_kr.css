@@ -1186,13 +1186,11 @@ z-index: 9;
     
 }
 
-#nvER{
+#nvER #nvTL #nvYEM #nvSL #nvYJL #nvJIA #nvJM #nvEC #nvCK #nvSF #nvYAH{
     display: none;
 }
 
-#nvTL{
-    display: none;
-}
+
 
 
 
