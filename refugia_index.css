@@ -1,9 +1,6 @@
 @keyframes back{
-    0%{z-index: 6}
-    15%{z-index: 5}
-    30%{z-index: 4}
-    45%{z-index: 3}
-    70%{z-index: 2}
+    0%{display: block;z-index: 6}
+    95%{display: block;}
     100%{z-index: 1}
 }
 
@@ -81,7 +78,7 @@ body{
 
 #back1{
     animation: back;
-    animation-duration: 1080s;
+    animation-duration: 990s;
     animation-delay: 0;
     
     animation-iteration-count: infinite;
@@ -89,48 +86,80 @@ body{
 
 #back2{
     animation: back;
-    animation-duration: 1080s;
-    animation-delay: 180s;
+    animation-duration: 990s;
+    animation-delay: 90s;
     
     animation-iteration-count: infinite;
 }
 
 #back3{
     animation: back;
-    animation-duration: 1080s;
-    animation-delay: 360s;
+    animation-duration: 990s;
+    animation-delay: 180s;
     
     animation-iteration-count: infinite;
 }
 
 #back4{
     animation: back;
-    animation-duration: 1080s;
-    animation-delay: 540s;
+    animation-duration: 990s;
+    animation-delay: 270s;
     
     animation-iteration-count: infinite;
 }
 
 #back5{
     animation: back;
-    animation-duration: 1080s;
-    animation-delay: 720s;
+    animation-duration: 990s;
+    animation-delay: 360s;
     
     animation-iteration-count: infinite;
 }
 
 #back6{
     animation: back;
-    animation-duration: 1080s;
-    animation-delay: 1080s;
+    animation-duration: 990s;
+    animation-delay: 450s;
     
     animation-iteration-count: infinite;
 }
 
 #back7{
     animation: back;
-    animation-duration: 1080s;
-    animation-delay: 1260s;
+    animation-duration: 990s;
+    animation-delay: 540s;
+    
+    animation-iteration-count: infinite;
+}
+
+#back8{
+    animation: back;
+    animation-duration: 990s;
+    animation-delay: 630s;
+    
+    animation-iteration-count: infinite;
+}
+
+#back9{
+    animation: back;
+    animation-duration: 990s;
+    animation-delay: 720s;
+    
+    animation-iteration-count: infinite;
+}
+
+#back10{
+    animation: back;
+    animation-duration: 990s;
+    animation-delay: 810s;
+    
+    animation-iteration-count: infinite;
+}
+
+#back11{
+    animation: back;
+    animation-duration: 990s;
+    animation-delay: 900s;
     
     animation-iteration-count: infinite;
 }

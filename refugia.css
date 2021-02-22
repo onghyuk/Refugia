@@ -5,32 +5,6 @@
 }
 
 /* noto-sans-kr-700 - latin_korean */
-@font-face {
-  font-family: 'Noto Sans KR';
-  font-style: normal;
-  font-weight: 700;
-  src: url('noto-sans-kr-v13-latin_korean-700.eot'); /* IE9 Compat Modes */
-  src: local(''),
-       url('noto-sans-kr-v13-latin_korean-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('noto-sans-kr-v13-latin_korean-700.woff2') format('woff2'), /* Super Modern Browsers */
-       url('noto-sans-kr-v13-latin_korean-700.woff') format('woff'), /* Modern Browsers */
-       url('noto-sans-kr-v13-latin_korean-700.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('noto-sans-kr-v13-latin_korean-700.svg#NotoSansKR') format('svg'); /* Legacy iOS */
-}
-/* noto-sans-kr-900 - latin_korean */
-@font-face {
-  font-family: 'Noto Sans KR';
-  font-style: normal;
-  font-weight: 900;
-  src: url('fonts/noto-sans-kr-v13-latin_korean-900.eot'); /* IE9 Compat Modes */
-  src: local(''),
-       url('fonts/noto-sans-kr-v13-latin_korean-900.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('fonts/noto-sans-kr-v13-latin_korean-900.woff2') format('woff2'), /* Super Modern Browsers */
-       url('fonts/noto-sans-kr-v13-latin_korean-900.woff') format('woff'), /* Modern Browsers */
-       url('fonts/noto-sans-kr-v13-latin_korean-900.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('fonts/noto-sans-kr-v13-latin_korean-900.svg#NotoSansKR') format('svg'); /* Legacy iOS */
-}
-
 @keyframes main{
     0%{opacity: 1}
     10%{opacity: 0;}
@@ -49,7 +23,6 @@
     100%{opacity: 1;}
 }
 
-
 html {
   height: -webkit-fill-available;
 }
@@ -59,43 +32,50 @@ body{
     padding: 0px;
    
     
-    
 
     font-style: normal;
     
     overflow-x: hidden;
     
     font-size: 6vw;
-    
+      
     
     height: 100vh; /* Fallback for browsers that do not support Custom Properties */
     height: calc(var(--vh, 1vh) * 100);
     
+    
 }
 
-h1{
-    font-family: refugia;
-    font-size: 20vw;
-    line-height: 19vw;
-    text-align: center;
-    margin-top: 0vw;
-    margin-bottom: 3vw;
-}
-
-#ckNAME{
-    font-size: 18vw;
-    line-height: 16vw;
+#wrapper{
+    width: 100%;
+    height: 100%;
+    z-index: 5;
+    
 }
 
 p{
-     
+    
     margin: 0px;
 }
 
 .br{
-    display: block; 
-    margin-bottom: 2vw;
+    
+    
+    display: block;
+    margin-bottom: 6vw;
 }
+
+.brsm{
+    display: block;
+    margin-bottom: 0vw;
+}
+
+.brm{
+    display: block;
+    margin-bottom: 3vw;
+}
+
+
 
 ins{
     text-decoration: none;
@@ -110,14 +90,11 @@ ins{
     margin-bottom: 2vw;
     padding-left: 2vw;
     padding-right: 2vw;
-    z-index: 2;
+    z-index: 6;
     overflow-x: hidden;
     
-    
-    margin-bottom: 5vh;
-    
-    font-family: pill-gothic-900mg, sans-serif; 
-    font-weight: 700;  font-style: normal;
+    font-family: pill-gothic-900mg, sans-serif;  font-weight: 700;  font-style: normal;
+   
     
 }
 
@@ -141,8 +118,8 @@ ins{
 
 #book{
     position: absolute;
-    left: 58vw;
-    top: 57.5vw;
+    left: 45vw;
+    top: 58vw;
     
     width: 15vw;
     height: auto;
@@ -154,7 +131,7 @@ ins{
 #language{
     position: absolute;
     right: 2.5vw;
-    top:2.28vw;
+    top:2.3vw;
     width: 10vw;
     height: 10vw;
     z-index: 9;
@@ -167,11 +144,10 @@ ins{
     line-height: 9.5vw;
 }
 
-
 #insta{
-    position: absolute;
-    right: -7.5vw;
-    top:6vw;
+    position: relative;
+    right:0vw;
+    top:0vw;
     width: 15vw;
     height: auto;
     z-index: 10;
@@ -181,7 +157,6 @@ ins{
     position: relative;
     top:2px;
 }
-
 a{
     color: black;
     text-decoration: none;
@@ -189,7 +164,14 @@ a{
 }
 
 
-
+h1{
+    font-family: refugia;
+    font-size: 20vw;
+    line-height: 19vw;
+    text-align: center;
+    margin-top: 0vw;
+    margin-bottom: 3vw;
+}
 
 
 #logo{
@@ -215,21 +197,18 @@ a{
     top:0vh;
    
     width:65%;
-    height: auto;
+    height: 15vh;
     
     
     z-index: 9;
     
-    animation: point;
-    animation-delay: 2s;
-    animation-duration: 0.1s;
-    animation-fill-mode: both;
+    
 }
 
 #point2{
     position: absolute;
     left:18vw;
-    top:0vh;
+    top:15vh;
    
     width:65%;
     height: auto;
@@ -237,10 +216,7 @@ a{
     
     z-index: 9;
     
-    animation: point;
-    animation-delay: 3s;
-    animation-duration: 0.1s;
-    animation-fill-mode: both;
+    
 }
 
 .point{
@@ -255,134 +231,6 @@ a{
 
 
 
-#pt1{
-    left:3%;
-    top:20%;
-}
-#pt2{
-    left:10%;
-    top:25%;
-}
-#pt3{
-    left:20%;
-    top:24%;
-}
-#pt4{
-    left:28%;
-    top:22%;
-}
-#pt5{
-    left: 35%;
-    top: 25%;
-}
-#pt6{
-    left: 48%;
-    top: 27%;
-}
-#pt7{
-    left: 58%;
-    top: 23%;
-}
-#pt8{
-    left: 68%;
-    top:26%;
-}
-#pt9{
-    left: 76%;
-    top:20%;
-}
-#pt10{
-    left: 86%;
-    top:22%;
-}
-#pt11{
-    left:88%;
-    top:25%;
-}
-#pt12{
-    left:99%;
-    top:26%;
-}
-#pt13{
-    left:1%;
-    top:43%;
-}
-#pt14{
-    left:14%;
-    top:44%; 
-}
-#pt15{
-    left: 17%;
-    top:41%;
-}
-#pt16{
-    left:30%;
-    top:40%;
-}
-#pt17{
-    left: 32%;
-    top:42%;
-}
-#pt18{
-    left: 38%;
-    top:48%;
-}
-#pt19{
-    left: 46%;
-    top:39%
-}
-#pt20{
-    left: 62%;
-    top:44%;
-}
-#pt21{
-    left: 75%;
-    top:39%;
-}
-#pt22{
-    left:85%;
-    top:44%;
-}
-#pt23{
-    left:94%;
-    top:38%;
-}
-#pt24{
-    left: 2%;
-    top:22%;
-}
-#pt25{
-    left:12%;
-    top:15%;
-}
-#pt26{
-    left:44%;
-    top:11%;
-}
-#pt27{
-    left:45%;
-    top:13%;
-}
-#pt28{
-    left:42%;
-    top:12%;
-}
-#pt29{
-    left:22%;
-    top:55%;
-}
-#pt30{
-    left:20%;
-    top:56%;
-}
-#pt31{
-    left:27%;
-    top:54%;
-}
-#pt32{
-    left: 75%;
-    top: 50%;
-}
 
 
 
@@ -393,8 +241,8 @@ top:0px;
 left:0px;
 
 margin: 0 auto;    
-z-index: 9;
-width: 94vw;
+z-index: 8;
+width: 95vw;
 height: auto;    
     
 }
@@ -440,8 +288,11 @@ z-index: 9;
     
     border: 2px solid black;
     background-color: white;
-    z-index: 6;
     
+    
+    line-height: 11vw;
+    
+    z-index: 8;
     
 }
 
@@ -453,26 +304,71 @@ z-index: 9;
     height: auto;
     
     font-family: pill-gothic-900mg, sans-serif;  font-weight: 700;  font-style: normal;
-    
-
-    font-style: normal;
     font-size: 6vw;
     line-height: 11vw;
     
-    
-    z-index: 8;
     padding-left: 2vw;
     padding-right: 2vw;
     padding-bottom: 0.5vw;
+    
    
+}
+
+#fronttext{
+    
+    position: relative;
+    height: 32vh;
+    overflow-y: scroll;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    margin-right: 5vw;
+    
+    font-family: pill-gothic-900mg, sans-serif;
+
+font-weight: 400;
+
+font-style: normal;
+    font-size: 4.5vw;
+    line-height: 8vw;
+    border-right: solid 1px black;
+    z-index: 8;
+   
+}
+
+#schedule{
+    padding-left: 2vw;
+    padding-right: 7vw;
+    font-size: 4.5vw;
+    line-height: 8vw;
+    font-family: pill-gothic-900mg, sans-serif;
+
+font-weight: 400;
+
+font-style: normal;
+}
+
+.sclist{
+    border-top: 1px solid black;
 }
 
 #sponsor{
     position: relative;
     
-    margin-top: 2vw;
-    
+    margin-top: 5vw;
 
+}
+
+#spon{
+    position: relative;
+    left: 0px;
+    top:-1vw;
+    width: 95.7%;
+    height: auto;
+    
+    border: 2px solid black;
+    padding: 2vw;
+    overflow-x: hidden;
+    line-height: 11vw;
 }
 
 #sns{
@@ -483,10 +379,11 @@ z-index: 9;
     padding-top:  5vw;
 }
 
+
 #game{
     position: absolute;
     width: 95.8%;
-    height: 97vh;
+    height: 97%;
     
     top:50vh;
     
@@ -515,7 +412,8 @@ z-index: 9;
     text-align: center;
     display: none;
     z-index: 10;
-   
+    
+    
 }
 
 .gameobject{
@@ -536,12 +434,14 @@ z-index: 9;
 
 .companyobject{
     width: 30%;
+    
 }
 
 .musroomobject{
     width: 30%;
     
 }
+
 
 
 
@@ -970,8 +870,6 @@ z-index: 9;
 }
 
 
-
-
 .bear{
     width: 60%;
     display: none;
@@ -979,7 +877,7 @@ z-index: 9;
 
 #gameup{
   position: fixed;
-  bottom: 10vw;
+  bottom: 13vw;
   right: 2.8vw;
   cursor: pointer;
     
@@ -1024,30 +922,75 @@ z-index: 9;
 
 #artistlist{
     position: fixed;
-    top:2vw;
-    left: 2vw;
-    width: 38%;
-    height: 40%;
+    top:0vw;
+    left:2vw;
+    width: 90.5%;
+    height: 7vw;
     text-align: left;
     border: 2px solid black;
-    overflow-y: scroll;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    display: none;
     
     padding-top: 2vw;
     padding-left: 2vw;
     padding-right: 2vw;
     padding-bottom: 2vw;
-    font-size: 4vw;
-    line-height: 6vw;
+    font-size: 4.5vw;
+    line-height: 8vw;
     background-color: white;
-    z-index: 9;
+    z-index: 7;
     
     
 }
 
 
 
-#nvCK{
-    letter-spacing: -1px;
+
+
+#list{
+    padding-left: 20vw;
+    font-weight: 500;
+    
+}
+
+#open{
+    position: absolute;
+    top:-2px;
+    right: -2px;
+    width: 8vw;
+    height: 8vw;
+    text-align: center;
+    line-height: 11vw;
+    
+    border: 2px solid white;
+    background-color: white;
+}
+
+#close{
+    position: absolute;
+    top:-2px;
+    right: -2px;
+    width: 8vw;
+    height: 8vw;
+    text-align: center;
+    line-height: 9vw;
+    
+    
+    background-color: white;
+    
+    
+}
+
+.listscrollname{
+    position: absolute;
+    left: 22vw;
+    top:2vw;
+    
+}
+
+#nvER, #nvTL, #nvYEM, #nvSL, #nvYJL, #nvJIA, #nvJM, #nvEC, #nvCK, #nvSF, #nvYAH{
+    display: none;
 }
 
 
@@ -1099,7 +1042,6 @@ z-index: 9;
     line-height: 6vh;
     width: 100vw;
     overflow-x: visible;
-    line-height: 11vw;
 }
 
 .archivech{
@@ -1163,8 +1105,6 @@ line-height: 11vw;
     
     
 font-family: pill-gothic-900mg, sans-serif;  font-weight: 700;  font-style: normal;
-font-weight: 700;    
-font-style: bold;
     
 
 
@@ -1195,13 +1135,13 @@ audio{
     padding-left: 2vw;
     padding-right: 2vw;    
 
-    line-height: 11vw;
     
+    line-height: 11vw;
     
 }
 
-.loof{
-    font-size: 6vw;
+.LOOP{
+    
     font-family: refugia;
     padding-left: 1px;
     padding-right: 1px;
@@ -1210,17 +1150,25 @@ audio{
 }
 
 .tbs{
-    font-size: 6vw;
+    position: relative;
+    top:1vw;
+    
     font-family: refugia;
     padding-left: 1px;
     padding-right: 1px;
+    
+   
 }
 
 .web{
-    font-size: 6vw;
+    position: relative;
+    top:0.5vw;
+    
     font-family: refugia;
     padding-left: 1px;
     padding-right: 1px;
+    
+
 }
 
 .artistname{
@@ -1244,6 +1192,14 @@ audio{
 
 .biounder{
     text-decoration: underline;
+    line-height: 11vw;
+    
+}
+
+del{
+    text-decoration: none;
+    letter-spacing: -0.5px;
+    
 }
 
 .workpageaudio{
@@ -1292,17 +1248,7 @@ audio{
     z-index: 4;
 }
 
-#top{
-    position: absolute;
-    left: 2vw;
-    top: 3vw;
-    width: 20vw;
-    height: 10vw;
-    
-    font-size: 5vw;
-    background-color: white;
-    color: black;
-}
+
 
 #credit{
     position: relative;

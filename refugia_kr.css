@@ -545,7 +545,14 @@ z-index: 9;
 
 #schedule{
     padding-left: 2vw;
-    padding-right: 2vw;
+    padding-right: 7vw;
+    font-size: 4.5vw;
+    line-height: 8vw;
+    font-weight: 600;
+}
+
+.sclist{
+    border-top: 1px solid black;
 }
 
 #sponsor{
